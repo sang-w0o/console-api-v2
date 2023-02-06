@@ -1,0 +1,7 @@
+site_name: CloudForetConsoleAPIv2Service
+site_description: CloudForet Console API v2 Service
+nav:
+  - About: index.md
+plugins:
+  - techdocs-core
+
