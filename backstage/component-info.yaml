@@ -6,11 +6,23 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/managed-by-origin-location: url:https://github.com/sang-w0o/console-api-v2/blob/master/backstage/component-info.yaml
-    backstage.io/kubernetes-id: 'cloudforet-console-api-v2'
+    backstage.io/kubernetes-id: "cloudforet-console-api-v2"
     backstage.io/kubernetes-namespace: doodle-core
-    backstage.io/kubernetes-label-selector: 'backstage.io/kubernetes-id=cloudforet-console-api-v2'
+    backstage.io/kubernetes-label-selector: "backstage.io/kubernetes-id=cloudforet-console-api-v2"
 spec:
   type: coreService
   lifecycle: experimental
   owner: mino@mz.co.kr
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: console-api-v2
+  description: Rest API for CloudForet Console v2
+spec:
+  providesApi: console-api-v2
+  type: openapi
+  lifecycle: experimental
+  owner: mino@mz.co.kr
+  definition: file:./docs/api/console-api-v2.json
