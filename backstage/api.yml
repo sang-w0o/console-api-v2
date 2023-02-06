@@ -4,6 +4,7 @@ metadata:
   name: console-api-v2
   description: Rest API for CloudForet Console v2
 spec:
+  providesApi: console-api-v2
   type: openapi
   lifecycle: experimental
   owner: mino@mz.co.kr
