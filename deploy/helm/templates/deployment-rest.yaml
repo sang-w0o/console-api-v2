@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
+    backstage.io/kubernetes-id: cloudforet-console-api-v2
 {{ include "spaceone.labels" . | indent 4 }}
     spaceone.service: {{ .Values.name }}
   name: {{ .Values.name }}-rest
@@ -22,6 +23,7 @@ spec:
         spaceone.shared-flag: {{ print .Values.global.shared | sha256sum }}
         spaceone.application-flag: {{ print .Values.application_rest | sha256sum }}
       labels:
+        backstage.io/kubernetes-id: cloudforet-console-api-v2
 {{ include "spaceone.labels" . | indent 8 }}
         spaceone.service: {{ .Values.name }}-rest
     spec:
