@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cloudforet-console-api-v2
+  namespace: cloudforet-core
+  description: Rest API for CloudForet Console v2
+  annotations:
+    openapi/ref-basepath: ./docs/api
+spec:
+  providesApis: cloudforet-console-api-v2
+  type: openapi
+  lifecycle: experimental
+  owner: mino@mz.co.kr
+  definition:
+    $json: ./docs/api/console-api-v2.json
+    # file:./docs/api/console-api-v2.json
+    # $openapi: https://raw.githubusercontent.com/sang-w0o/console-api-v2/master/backstage/docs/api/console-api-v2.json

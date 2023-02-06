@@ -1,0 +1,18 @@
+apiVersion: skaffold/v4beta1
+kind: Config
+metadata:
+  name: console-api-v2
+build:
+  platforms: ["linux/amd64"]
+  artifacts:
+    - image: spaceonedev/console-api-v2
+      docker:
+        dockerfile: Dockerfile
+deploy:
+  helm:
+    releases:
+    - name: console-api-v2
+      chartPath: deploy/helm
+      valuesFiles:
+      - /Users/mzc01-robbyra/Desktop/deployment-doodle/values/console-api-v2.yaml
+

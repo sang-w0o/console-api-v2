@@ -13,16 +13,18 @@ spec:
   type: coreService
   lifecycle: experimental
   owner: mino@mz.co.kr
+  providesApis: [console-api-v2]
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: console-api-v2
+  namespace: cloudforet-core
   description: Rest API for CloudForet Console v2
 spec:
-  providesApi: console-api-v2
   type: openapi
   lifecycle: experimental
   owner: mino@mz.co.kr
-  definition: file:./docs/api/console-api-v2.json
+  definition:
+    $json: "./docs/api/console-api-v2.json"
