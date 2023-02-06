@@ -27,4 +27,4 @@ spec:
   lifecycle: experimental
   owner: mino@mz.co.kr
   definition:
-    $json: "./docs/api/console-api-v2.json"
+    $json: ./docs/api/console-api-v2.json
