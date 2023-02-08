@@ -8,9 +8,7 @@
   "paths": {
     "/identity/domain/get": {
       "post": {
-        "tags": [
-          "identity > domain"
-        ],
+        "tags": ["identity > domain"],
         "summary": "Get",
         "operationId": "get_identity_domain_get_post",
         "requestBody": {
@@ -53,9 +51,7 @@
     },
     "/identity/domain/list": {
       "post": {
-        "tags": [
-          "identity > domain"
-        ],
+        "tags": ["identity > domain"],
         "summary": "List",
         "operationId": "list_identity_domain_list_post",
         "requestBody": {
@@ -93,9 +89,7 @@
     },
     "/identity/domain/stat": {
       "post": {
-        "tags": [
-          "identity > domain"
-        ],
+        "tags": ["identity > domain"],
         "summary": "Stat",
         "operationId": "stat_identity_domain_stat_post",
         "requestBody": {
@@ -138,9 +132,7 @@
     },
     "/identity/domain-owner/update": {
       "post": {
-        "tags": [
-          "identity > domain-owner"
-        ],
+        "tags": ["identity > domain-owner"],
         "summary": "Update",
         "operationId": "update_identity_domain_owner_update_post",
         "requestBody": {
@@ -183,9 +175,7 @@
     },
     "/identity/domain-owner/get": {
       "post": {
-        "tags": [
-          "identity > domain-owner"
-        ],
+        "tags": ["identity > domain-owner"],
         "summary": "Get",
         "operationId": "get_identity_domain_owner_get_post",
         "requestBody": {
@@ -228,9 +218,7 @@
     },
     "/identity/endpoint/list": {
       "post": {
-        "tags": [
-          "identity > endpoint"
-        ],
+        "tags": ["identity > endpoint"],
         "summary": "List",
         "operationId": "list_identity_endpoint_list_post",
         "requestBody": {
@@ -273,9 +261,7 @@
     },
     "/identity/provider/create": {
       "post": {
-        "tags": [
-          "identity > provider"
-        ],
+        "tags": ["identity > provider"],
         "summary": "Create",
         "operationId": "create_identity_provider_create_post",
         "requestBody": {
@@ -318,9 +304,7 @@
     },
     "/identity/provider/update": {
       "post": {
-        "tags": [
-          "identity > provider"
-        ],
+        "tags": ["identity > provider"],
         "summary": "Update",
         "operationId": "update_identity_provider_update_post",
         "requestBody": {
@@ -363,9 +347,7 @@
     },
     "/identity/provider/delete": {
       "post": {
-        "tags": [
-          "identity > provider"
-        ],
+        "tags": ["identity > provider"],
         "summary": "Delete",
         "operationId": "delete_identity_provider_delete_post",
         "requestBody": {
@@ -408,9 +390,7 @@
     },
     "/identity/provider/get": {
       "post": {
-        "tags": [
-          "identity > provider"
-        ],
+        "tags": ["identity > provider"],
         "summary": "Get",
         "operationId": "get_identity_provider_get_post",
         "requestBody": {
@@ -453,9 +433,7 @@
     },
     "/identity/provider/list": {
       "post": {
-        "tags": [
-          "identity > provider"
-        ],
+        "tags": ["identity > provider"],
         "summary": "List",
         "operationId": "list_identity_provider_list_post",
         "requestBody": {
@@ -498,9 +476,7 @@
     },
     "/identity/provider/stat": {
       "post": {
-        "tags": [
-          "identity > provider"
-        ],
+        "tags": ["identity > provider"],
         "summary": "Stat",
         "operationId": "stat_identity_provider_stat_post",
         "requestBody": {
@@ -543,9 +519,7 @@
     },
     "/identity/service-account/create": {
       "post": {
-        "tags": [
-          "identity > service-account"
-        ],
+        "tags": ["identity > service-account"],
         "summary": "Create",
         "operationId": "create_identity_service_account_create_post",
         "requestBody": {
@@ -588,9 +562,7 @@
     },
     "/identity/service-account/update": {
       "post": {
-        "tags": [
-          "identity > service-account"
-        ],
+        "tags": ["identity > service-account"],
         "summary": "Update",
         "operationId": "update_identity_service_account_update_post",
         "requestBody": {
@@ -633,9 +605,7 @@
     },
     "/identity/service-account/delete": {
       "post": {
-        "tags": [
-          "identity > service-account"
-        ],
+        "tags": ["identity > service-account"],
         "summary": "Delete",
         "operationId": "delete_identity_service_account_delete_post",
         "requestBody": {
@@ -678,9 +648,7 @@
     },
     "/identity/service-account/get": {
       "post": {
-        "tags": [
-          "identity > service-account"
-        ],
+        "tags": ["identity > service-account"],
         "summary": "Get",
         "operationId": "get_identity_service_account_get_post",
         "requestBody": {
@@ -723,9 +691,7 @@
     },
     "/identity/service-account/list": {
       "post": {
-        "tags": [
-          "identity > service-account"
-        ],
+        "tags": ["identity > service-account"],
         "summary": "List",
         "operationId": "list_identity_service_account_list_post",
         "requestBody": {
@@ -768,9 +734,7 @@
     },
     "/identity/service-account/stat": {
       "post": {
-        "tags": [
-          "identity > service-account"
-        ],
+        "tags": ["identity > service-account"],
         "summary": "Stat",
         "operationId": "stat_identity_service_account_stat_post",
         "requestBody": {
@@ -813,9 +777,7 @@
     },
     "/identity/project-group/create": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "Create",
         "operationId": "create_identity_project_group_create_post",
         "requestBody": {
@@ -858,9 +820,7 @@
     },
     "/identity/project-group/update": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "Update",
         "operationId": "update_identity_project_group_update_post",
         "requestBody": {
@@ -903,9 +863,7 @@
     },
     "/identity/project-group/get": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "Get",
         "operationId": "get_identity_project_group_get_post",
         "requestBody": {
@@ -948,9 +906,7 @@
     },
     "/identity/project-group/member/modify": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "Modify Member",
         "operationId": "modify_member_identity_project_group_member_modify_post",
         "requestBody": {
@@ -993,9 +949,7 @@
     },
     "/identity/project-group/member/list": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "List Members",
         "operationId": "list_members_identity_project_group_member_list_post",
         "requestBody": {
@@ -1038,9 +992,7 @@
     },
     "/identity/project-group/list": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "List",
         "operationId": "list_identity_project_group_list_post",
         "requestBody": {
@@ -1083,9 +1035,7 @@
     },
     "/identity/project-group/stat": {
       "post": {
-        "tags": [
-          "identity > project-group"
-        ],
+        "tags": ["identity > project-group"],
         "summary": "Stat",
         "operationId": "stat_identity_project_group_stat_post",
         "requestBody": {
@@ -1128,9 +1078,7 @@
     },
     "/identity/project/create": {
       "post": {
-        "tags": [
-          "identity > project"
-        ],
+        "tags": ["identity > project"],
         "summary": "Create",
         "operationId": "create_identity_project_create_post",
         "requestBody": {
@@ -1166,9 +1114,7 @@
     },
     "/identity/project/update": {
       "post": {
-        "tags": [
-          "identity > project"
-        ],
+        "tags": ["identity > project"],
         "summary": "Update",
         "operationId": "update_identity_project_update_post",
         "requestBody": {
@@ -1204,9 +1150,7 @@
     },
     "/identity/project/member/modify": {
       "post": {
-        "tags": [
-          "identity > project"
-        ],
+        "tags": ["identity > project"],
         "summary": "Modify Member",
         "operationId": "modify_member_identity_project_member_modify_post",
         "requestBody": {
@@ -1249,9 +1193,7 @@
     },
     "/identity/project/member/list": {
       "post": {
-        "tags": [
-          "identity > project"
-        ],
+        "tags": ["identity > project"],
         "summary": "List Members",
         "operationId": "list_members_identity_project_member_list_post",
         "requestBody": {
@@ -1294,9 +1236,7 @@
     },
     "/identity/project/list": {
       "post": {
-        "tags": [
-          "identity > project"
-        ],
+        "tags": ["identity > project"],
         "summary": "List",
         "description": "## Description\nGet all of your projects.\n\n<br>\n| Key                  | Description                                                   | Type   | Required |\n|----------------------|---------------------------------------------------------------|--------|----------|\n| **project_id**       | Project id                                                    | string |          |\n| **name**             | Project name                                                  | string |          |\n| **project_group_id** | Project group id                                              | string |          |\n| **query**            | Query option for detail search                                | object |          |\n| **domain_id**        | Unique id by each domain (extracted automatically from token) | string |          |",
         "operationId": "list_identity_project_list_post",
@@ -1354,9 +1294,7 @@
     },
     "/identity/project/stat": {
       "post": {
-        "tags": [
-          "identity > project"
-        ],
+        "tags": ["identity > project"],
         "summary": "Stat",
         "operationId": "stat_identity_project_stat_post",
         "requestBody": {
@@ -1399,9 +1337,7 @@
     },
     "/identity/policy/create": {
       "post": {
-        "tags": [
-          "identity > policy"
-        ],
+        "tags": ["identity > policy"],
         "summary": "Create",
         "operationId": "create_identity_policy_create_post",
         "requestBody": {
@@ -1444,9 +1380,7 @@
     },
     "/identity/policy/update": {
       "post": {
-        "tags": [
-          "identity > policy"
-        ],
+        "tags": ["identity > policy"],
         "summary": "Update",
         "operationId": "update_identity_policy_update_post",
         "requestBody": {
@@ -1489,9 +1423,7 @@
     },
     "/identity/policy/delete": {
       "post": {
-        "tags": [
-          "identity > policy"
-        ],
+        "tags": ["identity > policy"],
         "summary": "Delete",
         "operationId": "delete_identity_policy_delete_post",
         "requestBody": {
@@ -1534,9 +1466,7 @@
     },
     "/identity/policy/get": {
       "post": {
-        "tags": [
-          "identity > policy"
-        ],
+        "tags": ["identity > policy"],
         "summary": "Get",
         "operationId": "get_identity_policy_get_post",
         "requestBody": {
@@ -1579,9 +1509,7 @@
     },
     "/identity/policy/stat": {
       "post": {
-        "tags": [
-          "identity > policy"
-        ],
+        "tags": ["identity > policy"],
         "summary": "Stat",
         "operationId": "stat_identity_policy_stat_post",
         "requestBody": {
@@ -1624,9 +1552,7 @@
     },
     "/identity/role/create": {
       "post": {
-        "tags": [
-          "identity > role"
-        ],
+        "tags": ["identity > role"],
         "summary": "Create",
         "operationId": "create_identity_role_create_post",
         "requestBody": {
@@ -1669,9 +1595,7 @@
     },
     "/identity/role/update": {
       "post": {
-        "tags": [
-          "identity > role"
-        ],
+        "tags": ["identity > role"],
         "summary": "Update",
         "operationId": "update_identity_role_update_post",
         "requestBody": {
@@ -1714,9 +1638,7 @@
     },
     "/identity/role/delete": {
       "post": {
-        "tags": [
-          "identity > role"
-        ],
+        "tags": ["identity > role"],
         "summary": "Delete",
         "operationId": "delete_identity_role_delete_post",
         "requestBody": {
@@ -1759,9 +1681,7 @@
     },
     "/identity/role/get": {
       "post": {
-        "tags": [
-          "identity > role"
-        ],
+        "tags": ["identity > role"],
         "summary": "Get",
         "operationId": "get_identity_role_get_post",
         "requestBody": {
@@ -1804,9 +1724,7 @@
     },
     "/identity/role/list": {
       "post": {
-        "tags": [
-          "identity > role"
-        ],
+        "tags": ["identity > role"],
         "summary": "List",
         "operationId": "list_identity_role_list_post",
         "requestBody": {
@@ -1849,9 +1767,7 @@
     },
     "/identity/role/stat": {
       "post": {
-        "tags": [
-          "identity > role"
-        ],
+        "tags": ["identity > role"],
         "summary": "Stat",
         "operationId": "stat_identity_role_stat_post",
         "requestBody": {
@@ -1894,9 +1810,7 @@
     },
     "/identity/role-biding/create": {
       "post": {
-        "tags": [
-          "identity > role-binding"
-        ],
+        "tags": ["identity > role-binding"],
         "summary": "Create",
         "operationId": "create_identity_role_biding_create_post",
         "requestBody": {
@@ -1939,9 +1853,7 @@
     },
     "/identity/role-biding/update": {
       "post": {
-        "tags": [
-          "identity > role-binding"
-        ],
+        "tags": ["identity > role-binding"],
         "summary": "Update",
         "operationId": "update_identity_role_biding_update_post",
         "requestBody": {
@@ -1984,9 +1896,7 @@
     },
     "/identity/role-biding/delete": {
       "post": {
-        "tags": [
-          "identity > role-binding"
-        ],
+        "tags": ["identity > role-binding"],
         "summary": "Delete",
         "operationId": "delete_identity_role_biding_delete_post",
         "requestBody": {
@@ -2029,9 +1939,7 @@
     },
     "/identity/role-biding/get": {
       "post": {
-        "tags": [
-          "identity > role-binding"
-        ],
+        "tags": ["identity > role-binding"],
         "summary": "Get",
         "operationId": "get_identity_role_biding_get_post",
         "requestBody": {
@@ -2074,9 +1982,7 @@
     },
     "/identity/role-biding/list": {
       "post": {
-        "tags": [
-          "identity > role-binding"
-        ],
+        "tags": ["identity > role-binding"],
         "summary": "List",
         "operationId": "list_identity_role_biding_list_post",
         "requestBody": {
@@ -2119,9 +2025,7 @@
     },
     "/identity/role-biding/stat": {
       "post": {
-        "tags": [
-          "identity > role-binding"
-        ],
+        "tags": ["identity > role-binding"],
         "summary": "Stat",
         "operationId": "stat_identity_role_biding_stat_post",
         "requestBody": {
@@ -2164,9 +2068,7 @@
     },
     "/identity/user/create": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Create",
         "operationId": "create_identity_user_create_post",
         "requestBody": {
@@ -2202,9 +2104,7 @@
     },
     "/identity/user/update": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Update",
         "operationId": "update_identity_user_update_post",
         "requestBody": {
@@ -2240,9 +2140,7 @@
     },
     "/identity/user/delete": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Delete",
         "operationId": "delete_identity_user_delete_post",
         "requestBody": {
@@ -2250,9 +2148,7 @@
             "application/json": {
               "schema": {
                 "title": "UserRequest",
-                "required": [
-                  "user_id"
-                ],
+                "required": ["user_id"],
                 "type": "object",
                 "properties": {
                   "user_id": {
@@ -2290,9 +2186,7 @@
     },
     "/identity/user/set-required-actions": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Set Required Actions",
         "operationId": "set_required_actions_identity_user_set_required_actions_post",
         "requestBody": {
@@ -2328,9 +2222,7 @@
     },
     "/identity/user/find": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Find",
         "operationId": "find_identity_user_find_post",
         "requestBody": {
@@ -2373,9 +2265,7 @@
     },
     "/identity/user/sync": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Sync",
         "operationId": "sync_identity_user_sync_post",
         "requestBody": {
@@ -2442,9 +2332,7 @@
     },
     "/identity/user/list": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "List",
         "description": "## Description\nGet all of your users.\n\n<br>\n| Key           | Description                                                   | Type   | Required |\n|---------------|---------------------------------------------------------------|--------|----------|\n| **user_id**   | Login id                                                      | string |          |\n| **name**      | Name value                                                    | string |          |\n| **state**     | State of user id                                              | string |          |\n| **email**     | Email value                                                   | string |          |\n| **user_type** | USER(default) and API_USER type exist                         | string |          |\n| **backend**   | LOCAL(default) and EXTERANL type exist                        | string |          |\n| **query**     | Query option for detail search                                | object |          |\n| **domain_id** | Unique id by each domain (extracted automatically from token) | string |          |",
         "operationId": "list_identity_user_list_post",
@@ -2514,9 +2402,7 @@
     },
     "/identity/user/stat": {
       "post": {
-        "tags": [
-          "identity > user"
-        ],
+        "tags": ["identity > user"],
         "summary": "Stat",
         "operationId": "stat_identity_user_stat_post",
         "requestBody": {
@@ -2559,9 +2445,7 @@
     },
     "/identity/api-key/create": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "Create",
         "operationId": "create_identity_api_key_create_post",
         "requestBody": {
@@ -2604,9 +2488,7 @@
     },
     "/identity/api-key/enable": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "Enable",
         "operationId": "enable_identity_api_key_enable_post",
         "requestBody": {
@@ -2649,9 +2531,7 @@
     },
     "/identity/api-key/disable": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "Disable",
         "operationId": "disable_identity_api_key_disable_post",
         "requestBody": {
@@ -2694,9 +2574,7 @@
     },
     "/identity/api-key/delete": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "Delete",
         "operationId": "delete_identity_api_key_delete_post",
         "requestBody": {
@@ -2739,9 +2617,7 @@
     },
     "/identity/api-key/get": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "Get",
         "operationId": "get_identity_api_key_get_post",
         "requestBody": {
@@ -2784,9 +2660,7 @@
     },
     "/identity/api-key/list": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "List",
         "operationId": "list_identity_api_key_list_post",
         "requestBody": {
@@ -2829,9 +2703,7 @@
     },
     "/identity/api-key/stat": {
       "post": {
-        "tags": [
-          "identity > api-key"
-        ],
+        "tags": ["identity > api-key"],
         "summary": "Stat",
         "operationId": "stat_identity_api_key_stat_post",
         "requestBody": {
@@ -2874,9 +2746,7 @@
     },
     "/identity/token/issue": {
       "post": {
-        "tags": [
-          "identity > token"
-        ],
+        "tags": ["identity > token"],
         "summary": "Issue",
         "operationId": "issue_identity_token_issue_post",
         "requestBody": {
@@ -2884,10 +2754,7 @@
             "application/json": {
               "schema": {
                 "title": "IssueTokenRequest",
-                "required": [
-                  "user_type",
-                  "credentials"
-                ],
+                "required": ["user_type", "credentials"],
                 "type": "object",
                 "properties": {
                   "user_id": {
@@ -2936,9 +2803,7 @@
     },
     "/identity/token/refresh": {
       "post": {
-        "tags": [
-          "identity > token"
-        ],
+        "tags": ["identity > token"],
         "summary": "Refresh",
         "operationId": "refresh_identity_token_refresh_post",
         "parameters": [
@@ -2988,9 +2853,7 @@
     },
     "/inventory/region/create": {
       "post": {
-        "tags": [
-          "inventory > region"
-        ],
+        "tags": ["inventory > region"],
         "summary": "Create",
         "description": "# Request Body\n## name\n- required\n\n## region_code\n- required\n\n## provider\n- required",
         "operationId": "create_inventory_region_create_post",
@@ -2999,11 +2862,7 @@
             "application/json": {
               "schema": {
                 "title": "CreateRegionRequest",
-                "required": [
-                  "name",
-                  "region_code",
-                  "provider"
-                ],
+                "required": ["name", "region_code", "provider"],
                 "type": "object",
                 "properties": {
                   "name": {
@@ -3053,9 +2912,7 @@
     },
     "/inventory/region/update": {
       "post": {
-        "tags": [
-          "inventory > region"
-        ],
+        "tags": ["inventory > region"],
         "summary": "Update",
         "description": "# Request Body\n## region_id\n- required",
         "operationId": "update_inventory_region_update_post",
@@ -3064,9 +2921,7 @@
             "application/json": {
               "schema": {
                 "title": "UpdateRegionRequest",
-                "required": [
-                  "region_id"
-                ],
+                "required": ["region_id"],
                 "type": "object",
                 "properties": {
                   "region_id": {
@@ -3112,9 +2967,7 @@
     },
     "/inventory/region/delete": {
       "post": {
-        "tags": [
-          "inventory > region"
-        ],
+        "tags": ["inventory > region"],
         "summary": "Delete",
         "description": "# Request Body\n## region_id\n- required",
         "operationId": "delete_inventory_region_delete_post",
@@ -3123,9 +2976,7 @@
             "application/json": {
               "schema": {
                 "title": "RegionRequest",
-                "required": [
-                  "region_id"
-                ],
+                "required": ["region_id"],
                 "type": "object",
                 "properties": {
                   "region_id": {
@@ -3161,9 +3012,7 @@
     },
     "/inventory/region/get": {
       "post": {
-        "tags": [
-          "inventory > region"
-        ],
+        "tags": ["inventory > region"],
         "summary": "Get",
         "description": "# Request Body\n## region_id\n- required",
         "operationId": "get_inventory_region_get_post",
@@ -3172,9 +3021,7 @@
             "application/json": {
               "schema": {
                 "title": "GetRegionRequest",
-                "required": [
-                  "region_id"
-                ],
+                "required": ["region_id"],
                 "type": "object",
                 "properties": {
                   "region_id": {
@@ -3217,9 +3064,7 @@
     },
     "/inventory/region/list": {
       "post": {
-        "tags": [
-          "inventory > region"
-        ],
+        "tags": ["inventory > region"],
         "summary": "List",
         "description": "## Description\nGets a list of all Regions. You can use a query to get a filtered list of Regions.\n<br>\n| Key               | Description                                                  | Type    | Required|\n|-------------------|--------------------------------------------------------------|---------|---------|\n|**region_id**      | Region id                                                    | string  |         |\n|**name**           | Region name                                                  | string  |         |\n|**region_key**     | {provider}.{region_code} format value                        | string  |         |\n|**region_code**    | Unique region code by each CSP                               | string  |         |\n|**provider**       | CSP code like aws, azure and google_cloud                    | string  |         |\n|**query**          | Query option for detail search                               | object  |         |\n|**domain_id**      | Unique id by each domain (extracted automatically from token)| string  |         |",
         "operationId": "list_inventory_region_list_post",
@@ -3286,9 +3131,7 @@
     },
     "/inventory/region/stat": {
       "post": {
-        "tags": [
-          "inventory > region"
-        ],
+        "tags": ["inventory > region"],
         "summary": "Stat",
         "description": "# Request Body\n## query\n- required",
         "operationId": "stat_inventory_region_stat_post",
@@ -3297,9 +3140,7 @@
             "application/json": {
               "schema": {
                 "title": "RegionStatQuery",
-                "required": [
-                  "query"
-                ],
+                "required": ["query"],
                 "type": "object",
                 "properties": {
                   "query": {
@@ -3337,9 +3178,7 @@
     },
     "/inventory/cloud-service-type/create": {
       "post": {
-        "tags": [
-          "inventory > cloud-service-type"
-        ],
+        "tags": ["inventory > cloud-service-type"],
         "summary": "Create",
         "description": "# Request Body\n## name\n- required\n\n## provider\n- required\n\n## group\n- required",
         "operationId": "create_inventory_cloud_service_type_create_post",
@@ -3382,9 +3221,7 @@
     },
     "/inventory/cloud-service-type/update": {
       "post": {
-        "tags": [
-          "inventory > cloud-service-type"
-        ],
+        "tags": ["inventory > cloud-service-type"],
         "summary": "Update",
         "description": "# Request Body\n## cloud_service_type_id\n- required",
         "operationId": "update_inventory_cloud_service_type_update_post",
@@ -3427,9 +3264,7 @@
     },
     "/inventory/cloud-service-type/get": {
       "post": {
-        "tags": [
-          "inventory > cloud-service-type"
-        ],
+        "tags": ["inventory > cloud-service-type"],
         "summary": "Get",
         "description": "# Request Body\n## cloud_service_type_id\n- required",
         "operationId": "get_inventory_cloud_service_type_get_post",
@@ -3472,9 +3307,7 @@
     },
     "/inventory/cloud-service-type/list": {
       "post": {
-        "tags": [
-          "inventory > cloud-service-type"
-        ],
+        "tags": ["inventory > cloud-service-type"],
         "summary": "List",
         "description": "## Description\nGets a list of all CloudServiceTypes. You can use a query to get a filtered list of CloudServiceTypes.\n<br>\n\n| Key                        | Description                                                   | Type    | Required |\n|----------------------------|---------------------------------------------------------------|---------|----------|\n| **cloud_service_type_id**  | Cloud service type id                                         | string  |          |\n| **name**                   | Type of your cloud service from CSP like Instance or Database | string  |          |\n| **provider**               | CSP code like aws, azure and google_cloud                     | string  |          |\n| **group**                  | Name of your cloud service from CSP                           | string  |          |\n| **cloud_service_type_key** | {provider}.{group}.{name} format value                        | string  |          |\n| **service_code**           | Standard for classify resources by each CSP                   | string  |          |\n| **is_primary**             | Priority value to show resource within group                  | boolean |          |\n| **is_major**               | Priority value to show resource within group                  | boolean |          |\n| **resource_type**          | Standard for classify resources                               | string  |          |\n| **query**                  | Query option for detail search                                | object  |          |\n| **domain_id**              | Unique id by each domain (extracted automatically from token) | string  |          |",
         "operationId": "list_inventory_cloud_service_type_list_post",
@@ -3556,9 +3389,7 @@
     },
     "/inventory/cloud-service-type/stat": {
       "post": {
-        "tags": [
-          "inventory > cloud-service-type"
-        ],
+        "tags": ["inventory > cloud-service-type"],
         "summary": "Stat",
         "description": "# Request Body\n## query\n- required",
         "operationId": "stat_inventory_cloud_service_type_stat_post",
@@ -3601,9 +3432,7 @@
     },
     "/inventory/cloud-service/create": {
       "post": {
-        "tags": [
-          "inventory > cloud-service"
-        ],
+        "tags": ["inventory > cloud-service"],
         "summary": "Create",
         "description": "- **cloud_service_type(required)**\n\n- **provider(required)**\n\n- **cloud_service_group(required)**\n\n- **data(required)**\n\n- **name**\n\n- **ip_addresses**\n\n- **account**\n\n- **instance_type**\n\n- **instance_size**\n\n- **metadata**\n\n- **reference**\n\n- **tags**\n\n- **region_code**\n\n- **project_id**\n\n- **domain_id**",
         "operationId": "create_inventory_cloud_service_create_post",
@@ -3708,9 +3537,7 @@
     },
     "/inventory/cloud-service/update": {
       "post": {
-        "tags": [
-          "inventory > cloud-service"
-        ],
+        "tags": ["inventory > cloud-service"],
         "summary": "Update",
         "description": "# Request Body\n## cloud_service_id\n- required",
         "operationId": "update_inventory_cloud_service_update_post",
@@ -3719,9 +3546,7 @@
             "application/json": {
               "schema": {
                 "title": "UpdateCloudServiceRequest",
-                "required": [
-                  "cloud_service_id"
-                ],
+                "required": ["cloud_service_id"],
                 "type": "object",
                 "properties": {
                   "cloud_service_id": {
@@ -3812,9 +3637,7 @@
     },
     "/inventory/cloud-service/get": {
       "post": {
-        "tags": [
-          "inventory > cloud-service"
-        ],
+        "tags": ["inventory > cloud-service"],
         "summary": "Get",
         "description": "# Request Body\n## cloud_service_id\n- required",
         "operationId": "get_inventory_cloud_service_get_post",
@@ -3823,9 +3646,7 @@
             "application/json": {
               "schema": {
                 "title": "GetCloudServiceRequest",
-                "required": [
-                  "cloud_service_id"
-                ],
+                "required": ["cloud_service_id"],
                 "type": "object",
                 "properties": {
                   "cloud_service_id": {
@@ -3868,9 +3689,7 @@
     },
     "/inventory/cloud-service/list": {
       "post": {
-        "tags": [
-          "inventory > cloud-service"
-        ],
+        "tags": ["inventory > cloud-service"],
         "summary": "List",
         "description": "## Description\nGets a list of all CloudServices. You can use a query to get a filtered list of CloudServices.\n<br>\n\n| Key                     | Description                                                  | Type   | Required |\n|-------------------------|--------------------------------------------------------------|--------|----------|\n| **cloud_service_id**    | Cloud Service id                                             | string |          |\n| **name**                | Name of your resource from CSP                               | string |          |\n| **state**               | Collected state of cloud service by collector                | string |          |\n| **ip_address**          | One of IP addresses the cloud service has                    | string |          |\n| **account**             | Unique ID to identify your account from CSP                  | string |          |\n| **instance_type**       | Cloud service's Instance type                                | string |          |\n| **cloud_service_type**  | Type of your cloud service from CSP like Instance or Database| string |          |\n| **cloud_service_group** | Name of your cloud service from CSP                          | string |          |\n| **provider**            | CSP code like aws, azure and google_cloud                    | string |          |\n| **region_code**         | Unique region code by each CSP                               | string |          |\n| **project_id**          | Project id                                                   | string |          |\n| **project_group_id**    | Project group id                                             | string |          |\n| **resource_group_id**   | Resource group id                                            | string |          |\n| **query**               | Query option for detail search                               | object |          |\n| **domain_id**           | Unique id by each domain (extracted automatically from token)| string |          |",
         "operationId": "list_inventory_cloud_service_list_post",
@@ -3972,9 +3791,7 @@
     },
     "/inventory/cloud-service/analyze": {
       "post": {
-        "tags": [
-          "inventory > cloud-service"
-        ],
+        "tags": ["inventory > cloud-service"],
         "summary": "Analyze",
         "operationId": "analyze_inventory_cloud_service_analyze_post",
         "requestBody": {
@@ -3982,9 +3799,7 @@
             "application/json": {
               "schema": {
                 "title": "CloudServiceAnalyzeQuery",
-                "required": [
-                  "query"
-                ],
+                "required": ["query"],
                 "type": "object",
                 "properties": {
                   "query": {
@@ -4020,9 +3835,7 @@
     },
     "/inventory/cloud-service/stat": {
       "post": {
-        "tags": [
-          "inventory > cloud-service"
-        ],
+        "tags": ["inventory > cloud-service"],
         "summary": "Stat",
         "description": "# Request Body\n## query\n- required",
         "operationId": "stat_inventory_cloud_service_stat_post",
@@ -4031,9 +3844,7 @@
             "application/json": {
               "schema": {
                 "title": "CloudServiceStatQuery",
-                "required": [
-                  "query"
-                ],
+                "required": ["query"],
                 "type": "object",
                 "properties": {
                   "resource_group_id": {
@@ -4073,9 +3884,7 @@
     },
     "/inventory/change-history/list": {
       "post": {
-        "tags": [
-          "inventory > change-history"
-        ],
+        "tags": ["inventory > change-history"],
         "summary": "List",
         "description": "# Request Body\n## cloud_service_id\n- required",
         "operationId": "list_inventory_change_history_list_post",
@@ -4118,9 +3927,7 @@
     },
     "/inventory/change-history/stat": {
       "post": {
-        "tags": [
-          "inventory > change-history"
-        ],
+        "tags": ["inventory > change-history"],
         "summary": "Stat",
         "description": "Create an item with all the information\n\n---\n### - name (required)\n- each item must have name\n### - price (required)\n### - description (required)\n- a long description",
         "operationId": "stat_inventory_change_history_stat_post",
@@ -4163,9 +3970,7 @@
     },
     "/inventory/note/create": {
       "post": {
-        "tags": [
-          "inventory > note"
-        ],
+        "tags": ["inventory > note"],
         "summary": "Create",
         "operationId": "create_inventory_note_create_post",
         "requestBody": {
@@ -4208,9 +4013,7 @@
     },
     "/inventory/note/update": {
       "post": {
-        "tags": [
-          "inventory > note"
-        ],
+        "tags": ["inventory > note"],
         "summary": "Update",
         "operationId": "update_inventory_note_update_post",
         "responses": {
@@ -4232,9 +4035,7 @@
     },
     "/inventory/note/delete": {
       "post": {
-        "tags": [
-          "inventory > note"
-        ],
+        "tags": ["inventory > note"],
         "summary": "Delete",
         "operationId": "delete_inventory_note_delete_post",
         "requestBody": {
@@ -4277,9 +4078,7 @@
     },
     "/inventory/note/get": {
       "post": {
-        "tags": [
-          "inventory > note"
-        ],
+        "tags": ["inventory > note"],
         "summary": "Get",
         "operationId": "get_inventory_note_get_post",
         "requestBody": {
@@ -4322,9 +4121,7 @@
     },
     "/inventory/note/list": {
       "post": {
-        "tags": [
-          "inventory > note"
-        ],
+        "tags": ["inventory > note"],
         "summary": "List",
         "operationId": "list_inventory_note_list_post",
         "requestBody": {
@@ -4367,9 +4164,7 @@
     },
     "/inventory/note/stat": {
       "post": {
-        "tags": [
-          "inventory > note"
-        ],
+        "tags": ["inventory > note"],
         "summary": "Stat",
         "operationId": "stat_inventory_note_stat_post",
         "requestBody": {
@@ -4412,9 +4207,7 @@
     },
     "/inventory/resource_group/create": {
       "post": {
-        "tags": [
-          "inventory > resource_group"
-        ],
+        "tags": ["inventory > resource_group"],
         "summary": "Create",
         "operationId": "create_inventory_resource_group_create_post",
         "requestBody": {
@@ -4457,9 +4250,7 @@
     },
     "/inventory/resource_group/update": {
       "post": {
-        "tags": [
-          "inventory > resource_group"
-        ],
+        "tags": ["inventory > resource_group"],
         "summary": "Update",
         "operationId": "update_inventory_resource_group_update_post",
         "responses": {
@@ -4481,9 +4272,7 @@
     },
     "/inventory/resource_group/delete": {
       "post": {
-        "tags": [
-          "inventory > resource_group"
-        ],
+        "tags": ["inventory > resource_group"],
         "summary": "Delete",
         "operationId": "delete_inventory_resource_group_delete_post",
         "requestBody": {
@@ -4526,9 +4315,7 @@
     },
     "/inventory/resource_group/get": {
       "post": {
-        "tags": [
-          "inventory > resource_group"
-        ],
+        "tags": ["inventory > resource_group"],
         "summary": "Get",
         "operationId": "get_inventory_resource_group_get_post",
         "requestBody": {
@@ -4571,9 +4358,7 @@
     },
     "/inventory/resource_group/list": {
       "post": {
-        "tags": [
-          "inventory > resource_group"
-        ],
+        "tags": ["inventory > resource_group"],
         "summary": "List",
         "operationId": "list_inventory_resource_group_list_post",
         "requestBody": {
@@ -4616,9 +4401,7 @@
     },
     "/inventory/resource_group/stat": {
       "post": {
-        "tags": [
-          "inventory > resource_group"
-        ],
+        "tags": ["inventory > resource_group"],
         "summary": "Stat",
         "operationId": "stat_inventory_resource_group_stat_post",
         "requestBody": {
@@ -4661,9 +4444,7 @@
     },
     "/inventory/collector/create": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Create",
         "operationId": "create_inventory_collector_create_post",
         "requestBody": {
@@ -4706,9 +4487,7 @@
     },
     "/inventory/collector/update": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Update",
         "operationId": "update_inventory_collector_update_post",
         "responses": {
@@ -4730,9 +4509,7 @@
     },
     "/inventory/collector/update-plugin": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Update Plugin",
         "operationId": "update_plugin_inventory_collector_update_plugin_post",
         "responses": {
@@ -4754,9 +4531,7 @@
     },
     "/inventory/collector/verify-plugin": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Verify Plugin",
         "operationId": "verify_plugin_inventory_collector_verify_plugin_post",
         "responses": {
@@ -4778,9 +4553,7 @@
     },
     "/inventory/collector/get": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Get",
         "operationId": "get_inventory_collector_get_post",
         "requestBody": {
@@ -4823,9 +4596,7 @@
     },
     "/inventory/collector/add-schedule": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Add Schedule",
         "operationId": "add_schedule_inventory_collector_add_schedule_post",
         "requestBody": {
@@ -4868,9 +4639,7 @@
     },
     "/inventory/collector/update-schedule": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Update Schedule",
         "operationId": "update_schedule_inventory_collector_update_schedule_post",
         "requestBody": {
@@ -4913,9 +4682,7 @@
     },
     "/inventory/collector/delete-schedule": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Delete Schedule",
         "operationId": "delete_schedule_inventory_collector_delete_schedule_post",
         "requestBody": {
@@ -4958,9 +4725,7 @@
     },
     "/inventory/collector/list-schedules": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "List Schedules",
         "operationId": "list_schedules_inventory_collector_list_schedules_post",
         "requestBody": {
@@ -5003,9 +4768,7 @@
     },
     "/inventory/collector/get-schedule": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Get Schedule",
         "operationId": "get_schedule_inventory_collector_get_schedule_post",
         "requestBody": {
@@ -5048,9 +4811,7 @@
     },
     "/inventory/collector/collect": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "List",
         "operationId": "list_inventory_collector_collect_post",
         "requestBody": {
@@ -5093,9 +4854,7 @@
     },
     "/inventory/collector/stat": {
       "post": {
-        "tags": [
-          "inventory > collector"
-        ],
+        "tags": ["inventory > collector"],
         "summary": "Stat",
         "operationId": "stat_inventory_collector_stat_post",
         "requestBody": {
@@ -5138,9 +4897,7 @@
     },
     "/inventory/job/delete": {
       "post": {
-        "tags": [
-          "inventory > job"
-        ],
+        "tags": ["inventory > job"],
         "summary": "Delete",
         "operationId": "delete_inventory_job_delete_post",
         "requestBody": {
@@ -5183,9 +4940,7 @@
     },
     "/inventory/job/get": {
       "post": {
-        "tags": [
-          "inventory > job"
-        ],
+        "tags": ["inventory > job"],
         "summary": "Get",
         "operationId": "get_inventory_job_get_post",
         "requestBody": {
@@ -5228,9 +4983,7 @@
     },
     "/inventory/job/list": {
       "post": {
-        "tags": [
-          "inventory > job"
-        ],
+        "tags": ["inventory > job"],
         "summary": "List",
         "operationId": "list_inventory_job_list_post",
         "requestBody": {
@@ -5273,9 +5026,7 @@
     },
     "/inventory/job/stat": {
       "post": {
-        "tags": [
-          "inventory > job"
-        ],
+        "tags": ["inventory > job"],
         "summary": "Stat",
         "operationId": "stat_inventory_job_stat_post",
         "requestBody": {
@@ -5318,9 +5069,7 @@
     },
     "/inventory/job_task/delete": {
       "post": {
-        "tags": [
-          "inventory > job-task"
-        ],
+        "tags": ["inventory > job-task"],
         "summary": "Delete",
         "operationId": "delete_inventory_job_task_delete_post",
         "requestBody": {
@@ -5363,9 +5112,7 @@
     },
     "/inventory/job_task/get": {
       "post": {
-        "tags": [
-          "inventory > job-task"
-        ],
+        "tags": ["inventory > job-task"],
         "summary": "Get",
         "operationId": "get_inventory_job_task_get_post",
         "requestBody": {
@@ -5408,9 +5155,7 @@
     },
     "/inventory/job_task/list": {
       "post": {
-        "tags": [
-          "inventory > job-task"
-        ],
+        "tags": ["inventory > job-task"],
         "summary": "List",
         "operationId": "list_inventory_job_task_list_post",
         "requestBody": {
@@ -5453,9 +5198,7 @@
     },
     "/inventory/job_task/stat": {
       "post": {
-        "tags": [
-          "inventory > job-task"
-        ],
+        "tags": ["inventory > job-task"],
         "summary": "Stat",
         "operationId": "stat_inventory_job_task_stat_post",
         "requestBody": {
@@ -5498,9 +5241,7 @@
     },
     "/repository/repository/register": {
       "post": {
-        "tags": [
-          "repository > repository"
-        ],
+        "tags": ["repository > repository"],
         "summary": "Register",
         "operationId": "register_repository_repository_register_post",
         "requestBody": {
@@ -5542,9 +5283,7 @@
     },
     "/repository/repository/update": {
       "post": {
-        "tags": [
-          "repository > repository"
-        ],
+        "tags": ["repository > repository"],
         "summary": "Update",
         "operationId": "update_repository_repository_update_post",
         "requestBody": {
@@ -5586,9 +5325,7 @@
     },
     "/repository/repository/deregister": {
       "post": {
-        "tags": [
-          "repository > repository"
-        ],
+        "tags": ["repository > repository"],
         "summary": "Deregister",
         "operationId": "deregister_repository_repository_deregister_post",
         "requestBody": {
@@ -5630,9 +5367,7 @@
     },
     "/repository/repository/list": {
       "post": {
-        "tags": [
-          "repository > repository"
-        ],
+        "tags": ["repository > repository"],
         "summary": "List",
         "operationId": "list_repository_repository_list_post",
         "requestBody": {
@@ -5674,9 +5409,7 @@
     },
     "/repository/repository/get": {
       "post": {
-        "tags": [
-          "repository > repository"
-        ],
+        "tags": ["repository > repository"],
         "summary": "Get",
         "operationId": "get_repository_repository_get_post",
         "requestBody": {
@@ -5718,9 +5451,7 @@
     },
     "/repository/repository/stat": {
       "post": {
-        "tags": [
-          "repository > repository"
-        ],
+        "tags": ["repository > repository"],
         "summary": "Stat",
         "operationId": "stat_repository_repository_stat_post",
         "requestBody": {
@@ -5762,9 +5493,7 @@
     },
     "/repository/plugin/register": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Register",
         "operationId": "register_repository_plugin_register_post",
         "requestBody": {
@@ -5806,9 +5535,7 @@
     },
     "/repository/plugin/update": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Update",
         "operationId": "update_repository_plugin_update_post",
         "requestBody": {
@@ -5850,9 +5577,7 @@
     },
     "/repository/plugin/enable": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Enable",
         "operationId": "enable_repository_plugin_enable_post",
         "requestBody": {
@@ -5894,9 +5619,7 @@
     },
     "/repository/plugin/disable": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Disable",
         "operationId": "disable_repository_plugin_disable_post",
         "responses": {
@@ -5918,9 +5641,7 @@
     },
     "/repository/plugin/deregister": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Deregister",
         "operationId": "deregister_repository_plugin_deregister_post",
         "requestBody": {
@@ -5962,9 +5683,7 @@
     },
     "/repository/plugin/get-versions": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Get Versions",
         "operationId": "get_versions_repository_plugin_get_versions_post",
         "requestBody": {
@@ -6006,9 +5725,7 @@
     },
     "/repository/plugin/get": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Get",
         "operationId": "get_repository_plugin_get_post",
         "requestBody": {
@@ -6050,9 +5767,7 @@
     },
     "/repository/plugin/list": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "List",
         "operationId": "list_repository_plugin_list_post",
         "requestBody": {
@@ -6094,9 +5809,7 @@
     },
     "/repository/plugin/stat": {
       "post": {
-        "tags": [
-          "repository > plugin"
-        ],
+        "tags": ["repository > plugin"],
         "summary": "Stat",
         "operationId": "stat_repository_plugin_stat_post",
         "requestBody": {
@@ -6138,9 +5851,7 @@
     },
     "/repository/schema/create": {
       "post": {
-        "tags": [
-          "repository > schema"
-        ],
+        "tags": ["repository > schema"],
         "summary": "Create",
         "operationId": "create_repository_schema_create_post",
         "requestBody": {
@@ -6182,9 +5893,7 @@
     },
     "/repository/schema/update": {
       "post": {
-        "tags": [
-          "repository > schema"
-        ],
+        "tags": ["repository > schema"],
         "summary": "Update",
         "operationId": "update_repository_schema_update_post",
         "requestBody": {
@@ -6226,9 +5935,7 @@
     },
     "/repository/schema/delete": {
       "post": {
-        "tags": [
-          "repository > schema"
-        ],
+        "tags": ["repository > schema"],
         "summary": "Delete",
         "operationId": "delete_repository_schema_delete_post",
         "requestBody": {
@@ -6270,9 +5977,7 @@
     },
     "/repository/schema/get": {
       "post": {
-        "tags": [
-          "repository > schema"
-        ],
+        "tags": ["repository > schema"],
         "summary": "Get",
         "operationId": "get_repository_schema_get_post",
         "requestBody": {
@@ -6314,9 +6019,7 @@
     },
     "/repository/schema/list": {
       "post": {
-        "tags": [
-          "repository > schema"
-        ],
+        "tags": ["repository > schema"],
         "summary": "List",
         "operationId": "list_repository_schema_list_post",
         "requestBody": {
@@ -6358,9 +6061,7 @@
     },
     "/repository/schema/stat": {
       "post": {
-        "tags": [
-          "repository > schema"
-        ],
+        "tags": ["repository > schema"],
         "summary": "Stat",
         "operationId": "stat_repository_schema_stat_post",
         "requestBody": {
@@ -6402,9 +6103,7 @@
     },
     "/repository/policy/create": {
       "post": {
-        "tags": [
-          "repository > policy"
-        ],
+        "tags": ["repository > policy"],
         "summary": "Create",
         "operationId": "create_repository_policy_create_post",
         "requestBody": {
@@ -6446,9 +6145,7 @@
     },
     "/repository/policy/update": {
       "post": {
-        "tags": [
-          "repository > policy"
-        ],
+        "tags": ["repository > policy"],
         "summary": "Update",
         "operationId": "update_repository_policy_update_post",
         "requestBody": {
@@ -6490,9 +6187,7 @@
     },
     "/repository/policy/delete": {
       "post": {
-        "tags": [
-          "repository > policy"
-        ],
+        "tags": ["repository > policy"],
         "summary": "Delete",
         "operationId": "delete_repository_policy_delete_post",
         "requestBody": {
@@ -6534,9 +6229,7 @@
     },
     "/repository/policy/get": {
       "post": {
-        "tags": [
-          "repository > policy"
-        ],
+        "tags": ["repository > policy"],
         "summary": "Get",
         "operationId": "get_repository_policy_get_post",
         "requestBody": {
@@ -6578,9 +6271,7 @@
     },
     "/repository/policy/list": {
       "post": {
-        "tags": [
-          "repository > policy"
-        ],
+        "tags": ["repository > policy"],
         "summary": "List",
         "operationId": "list_repository_policy_list_post",
         "requestBody": {
@@ -6622,9 +6313,7 @@
     },
     "/repository/policy/stat": {
       "post": {
-        "tags": [
-          "repository > policy"
-        ],
+        "tags": ["repository > policy"],
         "summary": "Stat",
         "operationId": "stat_repository_policy_stat_post",
         "requestBody": {
@@ -6666,9 +6355,7 @@
     },
     "/notification/protocol/create": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Create",
         "operationId": "create_notification_protocol_create_post",
         "requestBody": {
@@ -6711,9 +6398,7 @@
     },
     "/notification/protocol/update": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Update",
         "operationId": "update_notification_protocol_update_post",
         "requestBody": {
@@ -6756,9 +6441,7 @@
     },
     "/notification/protocol/update-plugin": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Update Plugin",
         "operationId": "update_plugin_notification_protocol_update_plugin_post",
         "requestBody": {
@@ -6801,9 +6484,7 @@
     },
     "/notification/protocol/enable": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Enable",
         "operationId": "enable_notification_protocol_enable_post",
         "requestBody": {
@@ -6846,9 +6527,7 @@
     },
     "/notification/protocol/disable": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Disable",
         "operationId": "disable_notification_protocol_disable_post",
         "requestBody": {
@@ -6891,9 +6570,7 @@
     },
     "/notification/protocol/delete": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Delete",
         "operationId": "delete_notification_protocol_delete_post",
         "requestBody": {
@@ -6936,9 +6613,7 @@
     },
     "/notification/protocol/get": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Get",
         "operationId": "get_notification_protocol_get_post",
         "requestBody": {
@@ -6981,9 +6656,7 @@
     },
     "/notification/protocol/list": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "List",
         "operationId": "list_notification_protocol_list_post",
         "requestBody": {
@@ -7026,9 +6699,7 @@
     },
     "/notification/protocol/stat": {
       "post": {
-        "tags": [
-          "notification > protocol"
-        ],
+        "tags": ["notification > protocol"],
         "summary": "Stat",
         "operationId": "stat_notification_protocol_stat_post",
         "requestBody": {
@@ -7071,9 +6742,7 @@
     },
     "/notification/quota/create": {
       "post": {
-        "tags": [
-          "notification > quota"
-        ],
+        "tags": ["notification > quota"],
         "summary": "Create",
         "operationId": "create_notification_quota_create_post",
         "requestBody": {
@@ -7116,9 +6785,7 @@
     },
     "/notification/quota/update": {
       "post": {
-        "tags": [
-          "notification > quota"
-        ],
+        "tags": ["notification > quota"],
         "summary": "Update",
         "operationId": "update_notification_quota_update_post",
         "requestBody": {
@@ -7161,9 +6828,7 @@
     },
     "/notification/quota/delete": {
       "post": {
-        "tags": [
-          "notification > quota"
-        ],
+        "tags": ["notification > quota"],
         "summary": "Delete",
         "operationId": "delete_notification_quota_delete_post",
         "requestBody": {
@@ -7206,9 +6871,7 @@
     },
     "/notification/quota/get": {
       "post": {
-        "tags": [
-          "notification > quota"
-        ],
+        "tags": ["notification > quota"],
         "summary": "Get",
         "operationId": "get_notification_quota_get_post",
         "requestBody": {
@@ -7251,9 +6914,7 @@
     },
     "/notification/quota/list": {
       "post": {
-        "tags": [
-          "notification > quota"
-        ],
+        "tags": ["notification > quota"],
         "summary": "List",
         "operationId": "list_notification_quota_list_post",
         "requestBody": {
@@ -7296,9 +6957,7 @@
     },
     "/notification/quota/stat": {
       "post": {
-        "tags": [
-          "notification > quota"
-        ],
+        "tags": ["notification > quota"],
         "summary": "Stat",
         "operationId": "stat_notification_quota_stat_post",
         "requestBody": {
@@ -7341,9 +7000,7 @@
     },
     "/notification/notification-usage/list": {
       "post": {
-        "tags": [
-          "notification > notification-usage"
-        ],
+        "tags": ["notification > notification-usage"],
         "summary": "List",
         "operationId": "list_notification_notification_usage_list_post",
         "requestBody": {
@@ -7386,9 +7043,7 @@
     },
     "/notification/notification-usage/stat": {
       "post": {
-        "tags": [
-          "notification > notification-usage"
-        ],
+        "tags": ["notification > notification-usage"],
         "summary": "Stat",
         "operationId": "stat_notification_notification_usage_stat_post",
         "requestBody": {
@@ -7431,9 +7086,7 @@
     },
     "/notification/project-channel/create": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Create",
         "operationId": "create_notification_project_channel_create_post",
         "requestBody": {
@@ -7476,9 +7129,7 @@
     },
     "/notification/project-channel/update": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Update",
         "operationId": "update_notification_project_channel_update_post",
         "requestBody": {
@@ -7521,9 +7172,7 @@
     },
     "/notification/project-channel/set-schedule": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Set Schedule",
         "operationId": "set_schedule_notification_project_channel_set_schedule_post",
         "requestBody": {
@@ -7566,9 +7215,7 @@
     },
     "/notification/project-channel/set-subscription": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Set Subscription",
         "operationId": "set_subscription_notification_project_channel_set_subscription_post",
         "requestBody": {
@@ -7611,9 +7258,7 @@
     },
     "/notification/project-channel/enable": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Enable",
         "operationId": "enable_notification_project_channel_enable_post",
         "requestBody": {
@@ -7656,9 +7301,7 @@
     },
     "/notification/project-channel/disable": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Disable",
         "operationId": "disable_notification_project_channel_disable_post",
         "requestBody": {
@@ -7701,9 +7344,7 @@
     },
     "/notification/project-channel/delete": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Delete",
         "operationId": "delete_notification_project_channel_delete_post",
         "requestBody": {
@@ -7746,9 +7387,7 @@
     },
     "/notification/project-channel/get": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Get",
         "operationId": "get_notification_project_channel_get_post",
         "requestBody": {
@@ -7791,9 +7430,7 @@
     },
     "/notification/project-channel/list": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "List",
         "operationId": "list_notification_project_channel_list_post",
         "requestBody": {
@@ -7836,9 +7473,7 @@
     },
     "/notification/project-channel/stat": {
       "post": {
-        "tags": [
-          "notification > project-channel"
-        ],
+        "tags": ["notification > project-channel"],
         "summary": "Stat",
         "operationId": "stat_notification_project_channel_stat_post",
         "requestBody": {
@@ -7881,9 +7516,7 @@
     },
     "/notification/user-channel/create": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Create",
         "operationId": "create_notification_user_channel_create_post",
         "responses": {
@@ -7905,9 +7538,7 @@
     },
     "/notification/user-channel/update": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Update",
         "operationId": "update_notification_user_channel_update_post",
         "responses": {
@@ -7929,9 +7560,7 @@
     },
     "/notification/user-channel/set-schedule": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Set Schedule",
         "operationId": "set_schedule_notification_user_channel_set_schedule_post",
         "requestBody": {
@@ -7974,9 +7603,7 @@
     },
     "/notification/user-channel/set-subscription": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Set Subscription",
         "operationId": "set_subscription_notification_user_channel_set_subscription_post",
         "requestBody": {
@@ -8019,9 +7646,7 @@
     },
     "/notification/user-channel/enable": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Enable",
         "operationId": "enable_notification_user_channel_enable_post",
         "requestBody": {
@@ -8064,9 +7689,7 @@
     },
     "/notification/user-channel/disable": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Disable",
         "operationId": "disable_notification_user_channel_disable_post",
         "requestBody": {
@@ -8109,9 +7732,7 @@
     },
     "/notification/user-channel/delete": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Delete",
         "operationId": "delete_notification_user_channel_delete_post",
         "requestBody": {
@@ -8154,9 +7775,7 @@
     },
     "/notification/user-channel/get": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Get",
         "operationId": "get_notification_user_channel_get_post",
         "requestBody": {
@@ -8199,9 +7818,7 @@
     },
     "/notification/user-channel/list": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "List",
         "operationId": "list_notification_user_channel_list_post",
         "requestBody": {
@@ -8244,9 +7861,7 @@
     },
     "/notification/user-channel/stat": {
       "post": {
-        "tags": [
-          "notification > user-channel"
-        ],
+        "tags": ["notification > user-channel"],
         "summary": "Stat",
         "operationId": "stat_notification_user_channel_stat_post",
         "requestBody": {
@@ -8289,9 +7904,7 @@
     },
     "/notification/notification/create": {
       "post": {
-        "tags": [
-          "notification > notification"
-        ],
+        "tags": ["notification > notification"],
         "summary": "Create",
         "operationId": "create_notification_notification_create_post",
         "requestBody": {
@@ -8334,9 +7947,7 @@
     },
     "/notification/notification/delete": {
       "post": {
-        "tags": [
-          "notification > notification"
-        ],
+        "tags": ["notification > notification"],
         "summary": "Delete",
         "operationId": "delete_notification_notification_delete_post",
         "requestBody": {
@@ -8379,9 +7990,7 @@
     },
     "/notification/notification/set-read": {
       "post": {
-        "tags": [
-          "notification > notification"
-        ],
+        "tags": ["notification > notification"],
         "summary": "Set Read",
         "operationId": "set_read_notification_notification_set_read_post",
         "requestBody": {
@@ -8424,9 +8033,7 @@
     },
     "/notification/notification/get": {
       "post": {
-        "tags": [
-          "notification > notification"
-        ],
+        "tags": ["notification > notification"],
         "summary": "Get",
         "operationId": "get_notification_notification_get_post",
         "requestBody": {
@@ -8469,9 +8076,7 @@
     },
     "/notification/notification/list": {
       "post": {
-        "tags": [
-          "notification > notification"
-        ],
+        "tags": ["notification > notification"],
         "summary": "List",
         "operationId": "list_notification_notification_list_post",
         "requestBody": {
@@ -8514,9 +8119,7 @@
     },
     "/notification/notification/stat": {
       "post": {
-        "tags": [
-          "notification > notification"
-        ],
+        "tags": ["notification > notification"],
         "summary": "Stat",
         "operationId": "stat_notification_notification_stat_post",
         "requestBody": {
@@ -8559,9 +8162,7 @@
     },
     "/cost-analysis/data-source/register": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Register",
         "operationId": "register_cost_analysis_data_source_register_post",
         "requestBody": {
@@ -8604,9 +8205,7 @@
     },
     "/cost-analysis/data-source/update": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Update",
         "operationId": "update_cost_analysis_data_source_update_post",
         "responses": {
@@ -8628,9 +8227,7 @@
     },
     "/cost-analysis/data-source/update-plugin": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Update Plugin",
         "operationId": "update_plugin_cost_analysis_data_source_update_plugin_post",
         "requestBody": {
@@ -8673,9 +8270,7 @@
     },
     "/cost-analysis/data-source/verify-plugin": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Verify Plugin",
         "operationId": "verify_plugin_cost_analysis_data_source_verify_plugin_post",
         "requestBody": {
@@ -8718,9 +8313,7 @@
     },
     "/cost-analysis/data-source/enable": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Enable",
         "operationId": "enable_cost_analysis_data_source_enable_post",
         "requestBody": {
@@ -8763,9 +8356,7 @@
     },
     "/cost-analysis/data-source/disable": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Disable",
         "operationId": "disable_cost_analysis_data_source_disable_post",
         "requestBody": {
@@ -8808,9 +8399,7 @@
     },
     "/cost-analysis/data-source/deregister": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Deregister",
         "operationId": "deregister_cost_analysis_data_source_deregister_post",
         "requestBody": {
@@ -8853,9 +8442,7 @@
     },
     "/cost-analysis/data-source/sync": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Sync",
         "operationId": "sync_cost_analysis_data_source_sync_post",
         "requestBody": {
@@ -8898,9 +8485,7 @@
     },
     "/cost-analysis/data-source/get": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Get",
         "operationId": "get_cost_analysis_data_source_get_post",
         "requestBody": {
@@ -8943,9 +8528,7 @@
     },
     "/cost-analysis/data-source/list": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "List",
         "operationId": "list_cost_analysis_data_source_list_post",
         "requestBody": {
@@ -8988,9 +8571,7 @@
     },
     "/cost-analysis/data-source/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source"
-        ],
+        "tags": ["cost-analysis > data-source"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_data_source_stat_post",
         "requestBody": {
@@ -9033,9 +8614,7 @@
     },
     "/cost-analysis/exchange-rate/set": {
       "post": {
-        "tags": [
-          "cost-analysis > exchange-rate"
-        ],
+        "tags": ["cost-analysis > exchange-rate"],
         "summary": "Set",
         "operationId": "set_cost_analysis_exchange_rate_set_post",
         "requestBody": {
@@ -9078,9 +8657,7 @@
     },
     "/cost-analysis/exchange-rate/reset": {
       "post": {
-        "tags": [
-          "cost-analysis > exchange-rate"
-        ],
+        "tags": ["cost-analysis > exchange-rate"],
         "summary": "Reset",
         "operationId": "reset_cost_analysis_exchange_rate_reset_post",
         "requestBody": {
@@ -9123,9 +8700,7 @@
     },
     "/cost-analysis/exchange-rate/get": {
       "post": {
-        "tags": [
-          "cost-analysis > exchange-rate"
-        ],
+        "tags": ["cost-analysis > exchange-rate"],
         "summary": "Get",
         "operationId": "get_cost_analysis_exchange_rate_get_post",
         "requestBody": {
@@ -9168,9 +8743,7 @@
     },
     "/cost-analysis/exchange-rate/list": {
       "post": {
-        "tags": [
-          "cost-analysis > exchange-rate"
-        ],
+        "tags": ["cost-analysis > exchange-rate"],
         "summary": "List",
         "operationId": "list_cost_analysis_exchange_rate_list_post",
         "requestBody": {
@@ -9213,9 +8786,7 @@
     },
     "/cost-analysis/cost/create": {
       "post": {
-        "tags": [
-          "cost-analysis > cost"
-        ],
+        "tags": ["cost-analysis > cost"],
         "summary": "Create",
         "operationId": "create_cost_analysis_cost_create_post",
         "requestBody": {
@@ -9251,9 +8822,7 @@
     },
     "/cost-analysis/cost/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > cost"
-        ],
+        "tags": ["cost-analysis > cost"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_cost_delete_post",
         "requestBody": {
@@ -9358,9 +8927,7 @@
     },
     "/cost-analysis/cost/get": {
       "post": {
-        "tags": [
-          "cost-analysis > cost"
-        ],
+        "tags": ["cost-analysis > cost"],
         "summary": "Get",
         "operationId": "get_cost_analysis_cost_get_post",
         "requestBody": {
@@ -9396,9 +8963,7 @@
     },
     "/cost-analysis/cost/list": {
       "post": {
-        "tags": [
-          "cost-analysis > cost"
-        ],
+        "tags": ["cost-analysis > cost"],
         "summary": "List",
         "description": "## Description\nGets a list of all Costs. You can use a query to get a filtered list of Costs.\n\n<br>\n| Key                    | Description                                                   | Type   | Required |\n|------------------------|---------------------------------------------------------------|--------|----------|\n| **cost_id**            | Cost id                                                       | string |          |\n| **original_currency**  | Original currency like USD                                    | string |          |\n| **provider**           | CSP code like aws, azure and google_cloud                     | string |          |\n| **region_code**        | Unique region code by each CSP                                | string |          |\n| **region_key**         | {provider}.{region_code} format value                         | string |          |\n| **category**           | Category value                                                | string |          |\n| **product**            | Product value                                                 | string |          |\n| **account**            | Unique ID to identify your account from CSP                   | string |          |\n| **usage_type**         | Usage type                                                    | string |          |\n| **resource_group**     | Resource group value                                          | string |          |\n| **resource**           | Resource value                                                | string |          |\n| **service_account_id** | Service account id                                            | string |          |\n| **project_id**         | Project id                                                    | string |          |\n| **project_group_id**   | Project group id                                              | string |          |\n| **data_source_id**     | Data source id                                                | string |          |\n| **query**              | Query option for detail search                                | object |          |\n| **domain_id**          | Unique id by each domain (extracted automatically from token) | string |          |",
         "operationId": "list_cost_analysis_cost_list_post",
@@ -9504,9 +9069,7 @@
     },
     "/cost-analysis/cost/analyze": {
       "post": {
-        "tags": [
-          "cost-analysis > cost"
-        ],
+        "tags": ["cost-analysis > cost"],
         "summary": "Analyze",
         "description": "## Description\nGets the Cost information of specific products.\n\n<br>\n| Key           | Description                                                   | Type   | Required |\n|---------------|---------------------------------------------------------------|--------|----------|\n| **query**     | Query option for detail search                                | object |*True*    |\n| **domain_id** | Unique id by each domain (extracted automatically from token) | string |          |",
         "operationId": "analyze_cost_analysis_cost_analyze_post",
@@ -9552,9 +9115,7 @@
     },
     "/cost-analysis/cost/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > cost"
-        ],
+        "tags": ["cost-analysis > cost"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_cost_stat_post",
         "requestBody": {
@@ -9588,9 +9149,7 @@
     },
     "/cost-analysis/data-source-rule/create": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "Create",
         "operationId": "create_cost_analysis_data_source_rule_create_post",
         "requestBody": {
@@ -9633,9 +9192,7 @@
     },
     "/cost-analysis/data-source-rule/update": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "Update",
         "operationId": "update_cost_analysis_data_source_rule_update_post",
         "requestBody": {
@@ -9678,9 +9235,7 @@
     },
     "/cost-analysis/data-source-rule/change-order": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "Change Order",
         "operationId": "change_order_cost_analysis_data_source_rule_change_order_post",
         "requestBody": {
@@ -9723,9 +9278,7 @@
     },
     "/cost-analysis/data-source-rule/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_data_source_rule_delete_post",
         "requestBody": {
@@ -9768,9 +9321,7 @@
     },
     "/cost-analysis/data-source-rule/get": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "Get",
         "operationId": "get_cost_analysis_data_source_rule_get_post",
         "requestBody": {
@@ -9813,9 +9364,7 @@
     },
     "/cost-analysis/data-source-rule/list": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "List",
         "operationId": "list_cost_analysis_data_source_rule_list_post",
         "requestBody": {
@@ -9858,9 +9407,7 @@
     },
     "/cost-analysis/data-source-rule/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > data-source-rule"
-        ],
+        "tags": ["cost-analysis > data-source-rule"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_data_source_rule_stat_post",
         "requestBody": {
@@ -9903,9 +9450,7 @@
     },
     "/cost-analysis/budget/create": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "Create",
         "operationId": "create_cost_analysis_budget_create_post",
         "requestBody": {
@@ -9948,9 +9493,7 @@
     },
     "/cost-analysis/budget/update": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "Update",
         "operationId": "update_cost_analysis_budget_update_post",
         "requestBody": {
@@ -9993,9 +9536,7 @@
     },
     "/cost-analysis/budget/set-notification": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "Set Notification",
         "operationId": "set_notification_cost_analysis_budget_set_notification_post",
         "requestBody": {
@@ -10038,9 +9579,7 @@
     },
     "/cost-analysis/budget/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_budget_delete_post",
         "requestBody": {
@@ -10083,9 +9622,7 @@
     },
     "/cost-analysis/budget/get": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "Get",
         "operationId": "get_cost_analysis_budget_get_post",
         "requestBody": {
@@ -10128,9 +9665,7 @@
     },
     "/cost-analysis/budget/list": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "List",
         "operationId": "list_cost_analysis_budget_list_post",
         "requestBody": {
@@ -10173,9 +9708,7 @@
     },
     "/cost-analysis/budget/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > budget"
-        ],
+        "tags": ["cost-analysis > budget"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_budget_stat_post",
         "requestBody": {
@@ -10218,9 +9751,7 @@
     },
     "/cost-analysis/budget-usage/list": {
       "post": {
-        "tags": [
-          "cost-analysis > budget-usage"
-        ],
+        "tags": ["cost-analysis > budget-usage"],
         "summary": "List",
         "operationId": "list_cost_analysis_budget_usage_list_post",
         "requestBody": {
@@ -10263,9 +9794,7 @@
     },
     "/cost-analysis/budget-usage/analyze": {
       "post": {
-        "tags": [
-          "cost-analysis > budget-usage"
-        ],
+        "tags": ["cost-analysis > budget-usage"],
         "summary": "Analyze",
         "operationId": "analyze_cost_analysis_budget_usage_analyze_post",
         "requestBody": {
@@ -10308,9 +9837,7 @@
     },
     "/cost-analysis/budget-usage/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > budget-usage"
-        ],
+        "tags": ["cost-analysis > budget-usage"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_budget_usage_stat_post",
         "requestBody": {
@@ -10353,9 +9880,7 @@
     },
     "/cost-analysis/public-dashboard/create": {
       "post": {
-        "tags": [
-          "cost-analysis > public-dashboard"
-        ],
+        "tags": ["cost-analysis > public-dashboard"],
         "summary": "Create",
         "operationId": "create_cost_analysis_public_dashboard_create_post",
         "requestBody": {
@@ -10398,9 +9923,7 @@
     },
     "/cost-analysis/public-dashboard/update": {
       "post": {
-        "tags": [
-          "cost-analysis > public-dashboard"
-        ],
+        "tags": ["cost-analysis > public-dashboard"],
         "summary": "Update",
         "operationId": "update_cost_analysis_public_dashboard_update_post",
         "requestBody": {
@@ -10443,9 +9966,7 @@
     },
     "/cost-analysis/public-dashboard/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > public-dashboard"
-        ],
+        "tags": ["cost-analysis > public-dashboard"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_public_dashboard_delete_post",
         "requestBody": {
@@ -10488,9 +10009,7 @@
     },
     "/cost-analysis/public-dashboard/get": {
       "post": {
-        "tags": [
-          "cost-analysis > public-dashboard"
-        ],
+        "tags": ["cost-analysis > public-dashboard"],
         "summary": "Get",
         "operationId": "get_cost_analysis_public_dashboard_get_post",
         "requestBody": {
@@ -10533,9 +10052,7 @@
     },
     "/cost-analysis/public-dashboard/list": {
       "post": {
-        "tags": [
-          "cost-analysis > public-dashboard"
-        ],
+        "tags": ["cost-analysis > public-dashboard"],
         "summary": "List",
         "operationId": "list_cost_analysis_public_dashboard_list_post",
         "requestBody": {
@@ -10578,9 +10095,7 @@
     },
     "/cost-analysis/public-dashboard/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > public-dashboard"
-        ],
+        "tags": ["cost-analysis > public-dashboard"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_public_dashboard_stat_post",
         "requestBody": {
@@ -10623,9 +10138,7 @@
     },
     "/cost-analysis/user-dashboard/create": {
       "post": {
-        "tags": [
-          "cost-analysis > user-dashboard"
-        ],
+        "tags": ["cost-analysis > user-dashboard"],
         "summary": "Create",
         "operationId": "create_cost_analysis_user_dashboard_create_post",
         "requestBody": {
@@ -10668,9 +10181,7 @@
     },
     "/cost-analysis/user-dashboard/update": {
       "post": {
-        "tags": [
-          "cost-analysis > user-dashboard"
-        ],
+        "tags": ["cost-analysis > user-dashboard"],
         "summary": "Update",
         "operationId": "update_cost_analysis_user_dashboard_update_post",
         "requestBody": {
@@ -10713,9 +10224,7 @@
     },
     "/cost-analysis/user-dashboard/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > user-dashboard"
-        ],
+        "tags": ["cost-analysis > user-dashboard"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_user_dashboard_delete_post",
         "requestBody": {
@@ -10758,9 +10267,7 @@
     },
     "/cost-analysis/user-dashboard/get": {
       "post": {
-        "tags": [
-          "cost-analysis > user-dashboard"
-        ],
+        "tags": ["cost-analysis > user-dashboard"],
         "summary": "Get",
         "operationId": "get_cost_analysis_user_dashboard_get_post",
         "requestBody": {
@@ -10803,9 +10310,7 @@
     },
     "/cost-analysis/user-dashboard/list": {
       "post": {
-        "tags": [
-          "cost-analysis > user-dashboard"
-        ],
+        "tags": ["cost-analysis > user-dashboard"],
         "summary": "List",
         "operationId": "list_cost_analysis_user_dashboard_list_post",
         "requestBody": {
@@ -10848,9 +10353,7 @@
     },
     "/cost-analysis/user-dashboard/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > user-dashboard"
-        ],
+        "tags": ["cost-analysis > user-dashboard"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_user_dashboard_stat_post",
         "requestBody": {
@@ -10893,9 +10396,7 @@
     },
     "/cost-analysis/cost-query-set/create": {
       "post": {
-        "tags": [
-          "cost-analysis > cost-query-set"
-        ],
+        "tags": ["cost-analysis > cost-query-set"],
         "summary": "Create",
         "operationId": "create_cost_analysis_cost_query_set_create_post",
         "requestBody": {
@@ -10938,9 +10439,7 @@
     },
     "/cost-analysis/cost-query-set/update": {
       "post": {
-        "tags": [
-          "cost-analysis > cost-query-set"
-        ],
+        "tags": ["cost-analysis > cost-query-set"],
         "summary": "Update",
         "operationId": "update_cost_analysis_cost_query_set_update_post",
         "requestBody": {
@@ -10983,9 +10482,7 @@
     },
     "/cost-analysis/cost-query-set/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > cost-query-set"
-        ],
+        "tags": ["cost-analysis > cost-query-set"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_cost_query_set_delete_post",
         "requestBody": {
@@ -11028,9 +10525,7 @@
     },
     "/cost-analysis/cost-query-set/get": {
       "post": {
-        "tags": [
-          "cost-analysis > cost-query-set"
-        ],
+        "tags": ["cost-analysis > cost-query-set"],
         "summary": "Get",
         "operationId": "get_cost_analysis_cost_query_set_get_post",
         "requestBody": {
@@ -11073,9 +10568,7 @@
     },
     "/cost-analysis/cost-query-set/list": {
       "post": {
-        "tags": [
-          "cost-analysis > cost-query-set"
-        ],
+        "tags": ["cost-analysis > cost-query-set"],
         "summary": "List",
         "operationId": "list_cost_analysis_cost_query_set_list_post",
         "requestBody": {
@@ -11118,9 +10611,7 @@
     },
     "/cost-analysis/cost-query-set/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > cost-query-set"
-        ],
+        "tags": ["cost-analysis > cost-query-set"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_cost_query_set_stat_post",
         "requestBody": {
@@ -11163,9 +10654,7 @@
     },
     "/cost-analysis/custom-widget/create": {
       "post": {
-        "tags": [
-          "cost-analysis > custom-widget"
-        ],
+        "tags": ["cost-analysis > custom-widget"],
         "summary": "Create",
         "operationId": "create_cost_analysis_custom_widget_create_post",
         "requestBody": {
@@ -11208,9 +10697,7 @@
     },
     "/cost-analysis/custom-widget/update": {
       "post": {
-        "tags": [
-          "cost-analysis > custom-widget"
-        ],
+        "tags": ["cost-analysis > custom-widget"],
         "summary": "Update",
         "operationId": "update_cost_analysis_custom_widget_update_post",
         "requestBody": {
@@ -11253,9 +10740,7 @@
     },
     "/cost-analysis/custom-widget/delete": {
       "post": {
-        "tags": [
-          "cost-analysis > custom-widget"
-        ],
+        "tags": ["cost-analysis > custom-widget"],
         "summary": "Delete",
         "operationId": "delete_cost_analysis_custom_widget_delete_post",
         "requestBody": {
@@ -11298,9 +10783,7 @@
     },
     "/cost-analysis/custom-widget/get": {
       "post": {
-        "tags": [
-          "cost-analysis > custom-widget"
-        ],
+        "tags": ["cost-analysis > custom-widget"],
         "summary": "Get",
         "operationId": "get_cost_analysis_custom_widget_get_post",
         "requestBody": {
@@ -11343,9 +10826,7 @@
     },
     "/cost-analysis/custom-widget/list": {
       "post": {
-        "tags": [
-          "cost-analysis > custom-widget"
-        ],
+        "tags": ["cost-analysis > custom-widget"],
         "summary": "List",
         "operationId": "list_cost_analysis_custom_widget_list_post",
         "requestBody": {
@@ -11388,9 +10869,7 @@
     },
     "/cost-analysis/custom-widget/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > custom-widget"
-        ],
+        "tags": ["cost-analysis > custom-widget"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_custom_widget_stat_post",
         "requestBody": {
@@ -11433,9 +10912,7 @@
     },
     "/cost-analysis/job/cancel": {
       "post": {
-        "tags": [
-          "cost-analysis > job"
-        ],
+        "tags": ["cost-analysis > job"],
         "summary": "Cancel",
         "operationId": "cancel_cost_analysis_job_cancel_post",
         "requestBody": {
@@ -11478,9 +10955,7 @@
     },
     "/cost-analysis/job/get": {
       "post": {
-        "tags": [
-          "cost-analysis > job"
-        ],
+        "tags": ["cost-analysis > job"],
         "summary": "Get",
         "operationId": "get_cost_analysis_job_get_post",
         "requestBody": {
@@ -11523,9 +10998,7 @@
     },
     "/cost-analysis/job/list": {
       "post": {
-        "tags": [
-          "cost-analysis > job"
-        ],
+        "tags": ["cost-analysis > job"],
         "summary": "List",
         "operationId": "list_cost_analysis_job_list_post",
         "requestBody": {
@@ -11568,9 +11041,7 @@
     },
     "/cost-analysis/job/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > job"
-        ],
+        "tags": ["cost-analysis > job"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_job_stat_post",
         "requestBody": {
@@ -11613,9 +11084,7 @@
     },
     "/cost-analysis/job-task/get": {
       "post": {
-        "tags": [
-          "cost-analysis > job-task"
-        ],
+        "tags": ["cost-analysis > job-task"],
         "summary": "Get",
         "operationId": "get_cost_analysis_job_task_get_post",
         "requestBody": {
@@ -11658,9 +11127,7 @@
     },
     "/cost-analysis/job-task/list": {
       "post": {
-        "tags": [
-          "cost-analysis > job-task"
-        ],
+        "tags": ["cost-analysis > job-task"],
         "summary": "List",
         "operationId": "list_cost_analysis_job_task_list_post",
         "requestBody": {
@@ -11703,9 +11170,7 @@
     },
     "/cost-analysis/job-task/stat": {
       "post": {
-        "tags": [
-          "cost-analysis > job-task"
-        ],
+        "tags": ["cost-analysis > job-task"],
         "summary": "Stat",
         "operationId": "stat_cost_analysis_job_task_stat_post",
         "requestBody": {
@@ -11748,9 +11213,7 @@
     },
     "/dashboard/domain-dashboard/create": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Create",
         "description": "# Request Body\n## name\n- required\n\n## viewers\n- required\n\n## domain_id\n- required",
         "operationId": "create_dashboard_domain_dashboard_create_post",
@@ -11795,9 +11258,7 @@
     },
     "/dashboard/domain-dashboard/update": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Update",
         "description": "# Request Body\n## domain_dashboard_id\n- required\n\n## domain_id\n- required",
         "operationId": "update_dashboard_domain_dashboard_update_post",
@@ -11842,9 +11303,7 @@
     },
     "/dashboard/domain-dashboard/delete": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Delete",
         "description": "# Request Body\n## domain_dashboard_id\n- required\n\n## domain_id\n- required",
         "operationId": "delete_dashboard_domain_dashboard_delete_post",
@@ -11887,9 +11346,7 @@
     },
     "/dashboard/domain-dashboard/get": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Get",
         "description": "# Request Body\n## domain_dashboard_id\n- required\n\n## domain_id\n- required",
         "operationId": "get_dashboard_domain_dashboard_get_post",
@@ -11934,9 +11391,7 @@
     },
     "/dashboard/domain-dashboard/delete_version": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Delete Version",
         "operationId": "delete_version_dashboard_domain_dashboard_delete_version_post",
         "requestBody": {
@@ -11978,9 +11433,7 @@
     },
     "/dashboard/domain-dashboard/revert_version": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Revert Version",
         "description": "# Request Body\n## domain_dashboard_id\n- required\n\n## version\n- required\n\n## domain_id\n- required",
         "operationId": "revert_version_dashboard_domain_dashboard_revert_version_post",
@@ -12025,9 +11478,7 @@
     },
     "/dashboard/domain-dashboard/get_version": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Get Version",
         "description": "# Request Body\n## domain_dashboard_id\n- required\n\n## version\n- required\n\n## domain_id\n- required",
         "operationId": "get_version_dashboard_domain_dashboard_get_version_post",
@@ -12072,9 +11523,7 @@
     },
     "/dashboard/domain-dashboard/list_versions": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "List Versions",
         "description": "# Request Body\n## domain_dashboard_id\n- required\n\n## domain_id\n- required",
         "operationId": "list_versions_dashboard_domain_dashboard_list_versions_post",
@@ -12119,9 +11568,7 @@
     },
     "/dashboard/domain-dashboard/list": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "List",
         "description": "# Request Body\n## domain_id\n- required",
         "operationId": "list_dashboard_domain_dashboard_list_post",
@@ -12166,9 +11613,7 @@
     },
     "/dashboard/domain-dashboard/stat": {
       "post": {
-        "tags": [
-          "dashboard > domain-dashboard"
-        ],
+        "tags": ["dashboard > domain-dashboard"],
         "summary": "Stat",
         "description": "# Request Body\n## query\n- required\n\n## domain_id\n- required",
         "operationId": "stat_dashboard_domain_dashboard_stat_post",
@@ -12213,9 +11658,7 @@
     },
     "/dashboard/project-dashboard/create": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Create",
         "operationId": "create_dashboard_project_dashboard_create_post",
         "requestBody": {
@@ -12257,9 +11700,7 @@
     },
     "/dashboard/project-dashboard/update": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Update",
         "operationId": "update_dashboard_project_dashboard_update_post",
         "requestBody": {
@@ -12301,9 +11742,7 @@
     },
     "/dashboard/project-dashboard/delete": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Delete",
         "operationId": "delete_dashboard_project_dashboard_delete_post",
         "requestBody": {
@@ -12345,9 +11784,7 @@
     },
     "/dashboard/project-dashboard/get": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Get",
         "operationId": "get_dashboard_project_dashboard_get_post",
         "requestBody": {
@@ -12389,9 +11826,7 @@
     },
     "/dashboard/project-dashboard/delete_version": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Delete Version",
         "operationId": "delete_version_dashboard_project_dashboard_delete_version_post",
         "requestBody": {
@@ -12433,9 +11868,7 @@
     },
     "/dashboard/project-dashboard/revert_version": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Revert Version",
         "operationId": "revert_version_dashboard_project_dashboard_revert_version_post",
         "requestBody": {
@@ -12477,9 +11910,7 @@
     },
     "/dashboard/project-dashboard/get_version": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Get Version",
         "operationId": "get_version_dashboard_project_dashboard_get_version_post",
         "requestBody": {
@@ -12521,9 +11952,7 @@
     },
     "/dashboard/project-dashboard/list_versions": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "List Versions",
         "operationId": "list_versions_dashboard_project_dashboard_list_versions_post",
         "requestBody": {
@@ -12565,9 +11994,7 @@
     },
     "/dashboard/project-dashboard/list": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "List",
         "operationId": "list_dashboard_project_dashboard_list_post",
         "requestBody": {
@@ -12609,9 +12036,7 @@
     },
     "/dashboard/project-dashboard/stat": {
       "post": {
-        "tags": [
-          "dashboard > project-dashboard"
-        ],
+        "tags": ["dashboard > project-dashboard"],
         "summary": "Stat",
         "operationId": "stat_dashboard_project_dashboard_stat_post",
         "requestBody": {
@@ -12653,9 +12078,7 @@
     },
     "/dashboard/custom-widget/create": {
       "post": {
-        "tags": [
-          "dashboard > custom-widget"
-        ],
+        "tags": ["dashboard > custom-widget"],
         "summary": "Create",
         "operationId": "create_dashboard_custom_widget_create_post",
         "requestBody": {
@@ -12697,9 +12120,7 @@
     },
     "/dashboard/custom-widget/update": {
       "post": {
-        "tags": [
-          "dashboard > custom-widget"
-        ],
+        "tags": ["dashboard > custom-widget"],
         "summary": "Update",
         "operationId": "update_dashboard_custom_widget_update_post",
         "requestBody": {
@@ -12741,9 +12162,7 @@
     },
     "/dashboard/custom-widget/delete": {
       "post": {
-        "tags": [
-          "dashboard > custom-widget"
-        ],
+        "tags": ["dashboard > custom-widget"],
         "summary": "Delete",
         "operationId": "delete_dashboard_custom_widget_delete_post",
         "requestBody": {
@@ -12785,9 +12204,7 @@
     },
     "/dashboard/custom-widget/get": {
       "post": {
-        "tags": [
-          "dashboard > custom-widget"
-        ],
+        "tags": ["dashboard > custom-widget"],
         "summary": "Get",
         "operationId": "get_dashboard_custom_widget_get_post",
         "requestBody": {
@@ -12829,9 +12246,7 @@
     },
     "/dashboard/custom-widget/list": {
       "post": {
-        "tags": [
-          "dashboard > custom-widget"
-        ],
+        "tags": ["dashboard > custom-widget"],
         "summary": "List",
         "operationId": "list_dashboard_custom_widget_list_post",
         "requestBody": {
@@ -12873,9 +12288,7 @@
     },
     "/dashboard/custom-widget/stat": {
       "post": {
-        "tags": [
-          "dashboard > custom-widget"
-        ],
+        "tags": ["dashboard > custom-widget"],
         "summary": "Stat",
         "operationId": "stat_dashboard_custom_widget_stat_post",
         "requestBody": {
@@ -13427,9 +12840,7 @@
       },
       "Enable": {
         "title": "Enable",
-        "required": [
-          "plugin_id"
-        ],
+        "required": ["plugin_id"],
         "type": "object",
         "properties": {
           "plugin_id": {
@@ -13444,10 +12855,7 @@
       },
       "GetVersion": {
         "title": "GetVersion",
-        "required": [
-          "domain_dashboard_id",
-          "version"
-        ],
+        "required": ["domain_dashboard_id", "version"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -13473,9 +12881,7 @@
       },
       "GetVersions": {
         "title": "GetVersions",
-        "required": [
-          "plugin_id"
-        ],
+        "required": ["plugin_id"],
         "type": "object",
         "properties": {
           "plugin_id": {
@@ -13739,11 +13145,7 @@
       },
       "ValidationError": {
         "title": "ValidationError",
-        "required": [
-          "loc",
-          "msg",
-          "type"
-        ],
+        "required": ["loc", "msg", "type"],
         "type": "object",
         "properties": {
           "loc": {
@@ -13772,11 +13174,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__custom_widget__CustomWidgetInfo__Create": {
         "title": "Create",
-        "required": [
-          "widget_name",
-          "title",
-          "options"
-        ],
+        "required": ["widget_name", "title", "options"],
         "type": "object",
         "properties": {
           "widget_name": {
@@ -13818,9 +13216,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__custom_widget__CustomWidgetInfo__Delete": {
         "title": "Delete",
-        "required": [
-          "custom_widget_id"
-        ],
+        "required": ["custom_widget_id"],
         "type": "object",
         "properties": {
           "custom_widget_id": {
@@ -13835,9 +13231,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__custom_widget__CustomWidgetInfo__Get": {
         "title": "Get",
-        "required": [
-          "custom_widget_id"
-        ],
+        "required": ["custom_widget_id"],
         "type": "object",
         "properties": {
           "custom_widget_id": {
@@ -13889,9 +13283,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__custom_widget__CustomWidgetInfo__Update": {
         "title": "Update",
-        "required": [
-          "custom_widget_id"
-        ],
+        "required": ["custom_widget_id"],
         "type": "object",
         "properties": {
           "custom_widget_id": {
@@ -13933,9 +13325,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__custom_widget__Stat": {
         "title": "Stat",
-        "required": [
-          "query"
-        ],
+        "required": ["query"],
         "type": "object",
         "properties": {
           "query": {
@@ -13950,10 +13340,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardInfo__Create": {
         "title": "Create",
-        "required": [
-          "name",
-          "viewers"
-        ],
+        "required": ["name", "viewers"],
         "type": "object",
         "properties": {
           "name": {
@@ -13999,9 +13386,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardInfo__Delete": {
         "title": "Delete",
-        "required": [
-          "domain_dashboard_id"
-        ],
+        "required": ["domain_dashboard_id"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -14016,9 +13401,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardInfo__Get": {
         "title": "Get",
-        "required": [
-          "domain_dashboard_id"
-        ],
+        "required": ["domain_dashboard_id"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -14069,9 +13452,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardInfo__Update": {
         "title": "Update",
-        "required": [
-          "domain_dashboard_id"
-        ],
+        "required": ["domain_dashboard_id"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -14116,10 +13497,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardVersionInfo__DeleteVersion": {
         "title": "DeleteVersion",
-        "required": [
-          "domain_dashboard_id",
-          "version"
-        ],
+        "required": ["domain_dashboard_id", "version"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -14138,9 +13516,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardVersionInfo__ListVersions": {
         "title": "ListVersions",
-        "required": [
-          "domain_dashboard_id"
-        ],
+        "required": ["domain_dashboard_id"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -14166,10 +13542,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__DomainDashboardVersionInfo__RevertVersion": {
         "title": "RevertVersion",
-        "required": [
-          "domain_dashboard_id",
-          "version"
-        ],
+        "required": ["domain_dashboard_id", "version"],
         "type": "object",
         "properties": {
           "domain_dashboard_id": {
@@ -14188,9 +13561,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__Stat": {
         "title": "Stat",
-        "required": [
-          "query"
-        ],
+        "required": ["query"],
         "type": "object",
         "properties": {
           "query": {
@@ -14205,20 +13576,13 @@
       },
       "cloudforet__console_api_v2__model__dashboard__domain_dashboard__Viewers": {
         "title": "Viewers",
-        "enum": [
-          "PUBLIC",
-          "PRIVATE"
-        ],
+        "enum": ["PUBLIC", "PRIVATE"],
         "type": "string",
         "description": "An enumeration."
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardInfo__Create": {
         "title": "Create",
-        "required": [
-          "project_id",
-          "name",
-          "viewers"
-        ],
+        "required": ["project_id", "name", "viewers"],
         "type": "object",
         "properties": {
           "project_id": {
@@ -14270,9 +13634,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardInfo__Delete": {
         "title": "Delete",
-        "required": [
-          "project_dashboard_id"
-        ],
+        "required": ["project_dashboard_id"],
         "type": "object",
         "properties": {
           "project_dashboard_id": {
@@ -14287,9 +13649,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardInfo__Get": {
         "title": "Get",
-        "required": [
-          "project_dashboard_id"
-        ],
+        "required": ["project_dashboard_id"],
         "type": "object",
         "properties": {
           "project_dashboard_id": {
@@ -14344,9 +13704,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardInfo__Update": {
         "title": "Update",
-        "required": [
-          "project_dashboard_id"
-        ],
+        "required": ["project_dashboard_id"],
         "type": "object",
         "properties": {
           "project_dashboard_id": {
@@ -14395,10 +13753,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardVersionInfo__DeleteVersion": {
         "title": "DeleteVersion",
-        "required": [
-          "project_dashboard_id",
-          "version"
-        ],
+        "required": ["project_dashboard_id", "version"],
         "type": "object",
         "properties": {
           "project_dashboard_id": {
@@ -14417,9 +13772,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardVersionInfo__ListVersions": {
         "title": "ListVersions",
-        "required": [
-          "project_dashboard_id"
-        ],
+        "required": ["project_dashboard_id"],
         "type": "object",
         "properties": {
           "project_dashboard_id": {
@@ -14442,10 +13795,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__ProjectDashboardVersionInfo__RevertVersion": {
         "title": "RevertVersion",
-        "required": [
-          "project_dashboard_id",
-          "version"
-        ],
+        "required": ["project_dashboard_id", "version"],
         "type": "object",
         "properties": {
           "project_dashboard_id": {
@@ -14464,9 +13814,7 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__Stat": {
         "title": "Stat",
-        "required": [
-          "query"
-        ],
+        "required": ["query"],
         "type": "object",
         "properties": {
           "query": {
@@ -14481,18 +13829,13 @@
       },
       "cloudforet__console_api_v2__model__dashboard__project_dashboard__Viewers": {
         "title": "Viewers",
-        "enum": [
-          "PUBLIC",
-          "PRIVATE"
-        ],
+        "enum": ["PUBLIC", "PRIVATE"],
         "type": "string",
         "description": "An enumeration."
       },
       "cloudforet__console_api_v2__model__inventory__change_history__ChangeHistoryInfo__List": {
         "title": "List",
-        "required": [
-          "cloud_service_id"
-        ],
+        "required": ["cloud_service_id"],
         "type": "object",
         "properties": {
           "cloud_service_id": {
@@ -14535,10 +13878,7 @@
       },
       "cloudforet__console_api_v2__model__inventory__change_history__ChangeHistoryInfo__Stat": {
         "title": "Stat",
-        "required": [
-          "cloud_service_id",
-          "query"
-        ],
+        "required": ["cloud_service_id", "query"],
         "type": "object",
         "properties": {
           "cloud_service_id": {
@@ -14557,11 +13897,7 @@
       },
       "cloudforet__console_api_v2__model__inventory__cloud_service_type__CloudServiceTypeInfo__Create": {
         "title": "Create",
-        "required": [
-          "name",
-          "provider",
-          "group"
-        ],
+        "required": ["name", "provider", "group"],
         "type": "object",
         "properties": {
           "name": {
@@ -14613,9 +13949,7 @@
       },
       "cloudforet__console_api_v2__model__inventory__cloud_service_type__CloudServiceTypeInfo__Get": {
         "title": "Get",
-        "required": [
-          "cloud_service_type_id"
-        ],
+        "required": ["cloud_service_type_id"],
         "type": "object",
         "properties": {
           "cloud_service_type_id": {
@@ -14635,9 +13969,7 @@
       },
       "cloudforet__console_api_v2__model__inventory__cloud_service_type__CloudServiceTypeInfo__Stat": {
         "title": "Stat",
-        "required": [
-          "query"
-        ],
+        "required": ["query"],
         "type": "object",
         "properties": {
           "query": {
@@ -14652,9 +13984,7 @@
       },
       "cloudforet__console_api_v2__model__inventory__cloud_service_type__CloudServiceTypeInfo__Update": {
         "title": "Update",
-        "required": [
-          "cloud_service_type_id"
-        ],
+        "required": ["cloud_service_type_id"],
         "type": "object",
         "properties": {
           "cloud_service_type_id": {
@@ -14698,9 +14028,7 @@
       },
       "cloudforet__console_api_v2__model__repository__plugin__PluginInfo__Deregister": {
         "title": "Deregister",
-        "required": [
-          "plugin_id"
-        ],
+        "required": ["plugin_id"],
         "type": "object",
         "properties": {
           "plugin_id": {
@@ -14715,9 +14043,7 @@
       },
       "cloudforet__console_api_v2__model__repository__plugin__PluginInfo__Get": {
         "title": "Get",
-        "required": [
-          "plugin_id"
-        ],
+        "required": ["plugin_id"],
         "type": "object",
         "properties": {
           "plugin_id": {
@@ -14741,9 +14067,7 @@
       },
       "cloudforet__console_api_v2__model__repository__plugin__PluginInfo__List": {
         "title": "List",
-        "required": [
-          "repository_id"
-        ],
+        "required": ["repository_id"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -14795,11 +14119,7 @@
       },
       "cloudforet__console_api_v2__model__repository__plugin__PluginInfo__Register": {
         "title": "Register",
-        "required": [
-          "name",
-          "service_type",
-          "image"
-        ],
+        "required": ["name", "service_type", "image"],
         "type": "object",
         "properties": {
           "name": {
@@ -14855,10 +14175,7 @@
       },
       "cloudforet__console_api_v2__model__repository__plugin__PluginInfo__Stat": {
         "title": "Stat",
-        "required": [
-          "repository_id",
-          "query"
-        ],
+        "required": ["repository_id", "query"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -14877,9 +14194,7 @@
       },
       "cloudforet__console_api_v2__model__repository__plugin__PluginInfo__Update": {
         "title": "Update",
-        "required": [
-          "plugin_id"
-        ],
+        "required": ["plugin_id"],
         "type": "object",
         "properties": {
           "plugin_id": {
@@ -14911,11 +14226,7 @@
       },
       "cloudforet__console_api_v2__model__repository__policy__PolicyInfo__Create": {
         "title": "Create",
-        "required": [
-          "policy_id",
-          "name",
-          "permissions"
-        ],
+        "required": ["policy_id", "name", "permissions"],
         "type": "object",
         "properties": {
           "policy_id": {
@@ -14966,9 +14277,7 @@
       },
       "cloudforet__console_api_v2__model__repository__policy__PolicyInfo__Get": {
         "title": "Get",
-        "required": [
-          "policy_id"
-        ],
+        "required": ["policy_id"],
         "type": "object",
         "properties": {
           "policy_id": {
@@ -14992,9 +14301,7 @@
       },
       "cloudforet__console_api_v2__model__repository__policy__PolicyInfo__List": {
         "title": "List",
-        "required": [
-          "repository_id"
-        ],
+        "required": ["repository_id"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -15021,10 +14328,7 @@
       },
       "cloudforet__console_api_v2__model__repository__policy__PolicyInfo__Stat": {
         "title": "Stat",
-        "required": [
-          "repository_id",
-          "query"
-        ],
+        "required": ["repository_id", "query"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -15043,10 +14347,7 @@
       },
       "cloudforet__console_api_v2__model__repository__policy__PolicyInfo__Update": {
         "title": "Update",
-        "required": [
-          "policy_id",
-          "permissions"
-        ],
+        "required": ["policy_id", "permissions"],
         "type": "object",
         "properties": {
           "policy_id": {
@@ -15079,9 +14380,7 @@
       },
       "cloudforet__console_api_v2__model__repository__repository__RepositoryInfo__Deregister": {
         "title": "Deregister",
-        "required": [
-          "repository_id"
-        ],
+        "required": ["repository_id"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -15101,9 +14400,7 @@
       },
       "cloudforet__console_api_v2__model__repository__repository__RepositoryInfo__Get": {
         "title": "Get",
-        "required": [
-          "repository_id"
-        ],
+        "required": ["repository_id"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -15132,10 +14429,7 @@
       },
       "cloudforet__console_api_v2__model__repository__repository__RepositoryInfo__Register": {
         "title": "Register",
-        "required": [
-          "name",
-          "repository_type"
-        ],
+        "required": ["name", "repository_type"],
         "type": "object",
         "properties": {
           "name": {
@@ -15158,9 +14452,7 @@
       },
       "cloudforet__console_api_v2__model__repository__repository__RepositoryInfo__Stat": {
         "title": "Stat",
-        "required": [
-          "query"
-        ],
+        "required": ["query"],
         "type": "object",
         "properties": {
           "query": {
@@ -15175,9 +14467,7 @@
       },
       "cloudforet__console_api_v2__model__repository__repository__RepositoryInfo__Update": {
         "title": "Update",
-        "required": [
-          "repository_id"
-        ],
+        "required": ["repository_id"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -15196,12 +14486,7 @@
       },
       "cloudforet__console_api_v2__model__repository__schema__SchemaInfo__Create": {
         "title": "Create",
-        "required": [
-          "schema_id",
-          "name",
-          "service_type",
-          "schema"
-        ],
+        "required": ["schema_id", "name", "service_type", "schema"],
         "type": "object",
         "properties": {
           "schema_id": {
@@ -15255,9 +14540,7 @@
       },
       "cloudforet__console_api_v2__model__repository__schema__SchemaInfo__Get": {
         "title": "Get",
-        "required": [
-          "name"
-        ],
+        "required": ["name"],
         "type": "object",
         "properties": {
           "name": {
@@ -15281,9 +14564,7 @@
       },
       "cloudforet__console_api_v2__model__repository__schema__SchemaInfo__List": {
         "title": "List",
-        "required": [
-          "repository_id"
-        ],
+        "required": ["repository_id"],
         "type": "object",
         "properties": {
           "repository_id": {
@@ -15310,9 +14591,7 @@
       },
       "cloudforet__console_api_v2__model__repository__schema__SchemaInfo__Stat": {
         "title": "Stat",
-        "required": [
-          "query"
-        ],
+        "required": ["query"],
         "type": "object",
         "properties": {
           "query": {
