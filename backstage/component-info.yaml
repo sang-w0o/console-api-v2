@@ -1,4 +1,17 @@
 apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: console-api-v2
+  namespace: cloudforet-core
+  description: Rest API for CloudForet Console v2
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: mino@mz.co.kr
+  definition:
+    $text: ./api/console-api-v2.json
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cloudforet-console-api-v2
@@ -16,16 +29,3 @@ spec:
   owner: mino@mz.co.kr
   providesApis: [console-api-v2]
 
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: console-api-v2
-  namespace: cloudforet-core
-  description: Rest API for CloudForet Console v2
-spec:
-  type: openapi
-  lifecycle: experimental
-  owner: mino@mz.co.kr
-  definition:
-    $text: ./api/console-api-v2.json
