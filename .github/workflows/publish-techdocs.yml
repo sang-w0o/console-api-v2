@@ -39,6 +39,8 @@ jobs:
 
       - name: Publish docs
         run: techdocs-cli publish --publisher-type awsS3 --storage-name $AWS_S3_BUCKET_NAME --entity $ENTITY_NAMESPACE/$ENTITY_KIND/$ENTITY_NAME
+        run: techdocs-cli publish --publisher-type awsS3 --storage-name $AWS_S3_BUCKET_NAME --entity $ENTITY_NAMESPACE/component/$ENTITY_NAME
+
 
 
 
